@@ -4,10 +4,8 @@ $config["db"]=[
     "host"=>"localhost",
     "user"=>"root",
     "pass"=>"",
-    "name"=>""
+    "name"=>"matrix"
 ];
-/*
-need some information
-*/
+
 $config["domain"]="localhost/Matrix/";
 

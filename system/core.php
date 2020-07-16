@@ -6,4 +6,10 @@ function __autoload($classname){
         require_once ("./mvc/controller/$file.php");
         return true;
     }
+    if (strpos($classname,"Model") !== false){
+        $file = str_replace("Model","",$classname);
+        $file = strtolower($file);
+        require_once ("./mvc/model/$file.php");
+        return true;
+    }
 }
