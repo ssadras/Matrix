@@ -18,16 +18,6 @@ function randomArray($i){
     return $array;
 }
 
-function FindUserByEmail ($email){
-    $data=new mysqli("localhost","root","","contact_phplearn");
-    $result=$data->query("select * from users where email='$email'");
-    if ($result) {
-        $result_row = $result->fetch_assoc();
-        return $result_row["user_id"];
-    }
-    return false;
-}
-
 function DeleteCookieByKey($check){
     foreach ($_COOKIE as $key=>$value){
         if ($key==[$check]){

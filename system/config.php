@@ -4,7 +4,10 @@ $config["db"]=[
     "host"=>"localhost",
     "user"=>"root",
     "pass"=>"",
-    "name"=>"contact_phplearn"
+    "name"=>""
 ];
-$config["domain"]="localhost/PhpLearn/tell_book_mvc/";
+/*
+need some information
+*/
+$config["domain"]="localhost/Matrix/";
 

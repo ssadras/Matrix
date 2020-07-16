@@ -1,7 +1,7 @@
 Options -Indexes
 
 RewriteEngine On
-RewriteBase /PhpLearn/tell_book_mvc/
+RewriteBase /Matrix/
 
 RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js)$
 RewriteRule .* index.php [L]
