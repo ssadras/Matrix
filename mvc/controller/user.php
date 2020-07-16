@@ -14,11 +14,7 @@ class UserController {
     }
 
     private function loginCheck($username,$pass){
-        /*
-         * model needed
-         */
-        $db = Db::reader();
-        $result=$db->selectFirstQuery("select * from users where (email=$username or username=$username) and password=$pass");
+        $result = UserModel::loginCheckUsernamePass();
         if ($result==null){
             $_SESSION["msg"]=["msg"=>"Username or password is incorrect","t_color"=>"white","bg_color"=>"red"];
             $this->loginForm();
@@ -29,7 +25,6 @@ class UserController {
             $_SESSION["msg"]=["msg"=>"Welcome $name","t_color"=>"white","bg_color"=>"green"];
             header(Domain_R()."home/");
         }
-        $db->close();
         return ;
     }
 
@@ -51,8 +46,7 @@ class UserController {
     }
 
     private function registerCheck ($username,$pass,$email,$firstname,$lastname,$mobile){
-        $db=Db::reader();
-        $result=$db->selectQuery("select * from users where username=$username or email=$email");
+        $result = UserModel::registerCheckUsernameEmail();
         if ($result==null){
             if (!CheckEmail($email)){
                 $_SESSION["msg"]=["msg"=>"Enter a Valid email!","t_color"=>"white","bg_color"=>"red"];
@@ -64,8 +58,7 @@ class UserController {
                 $_SESSION["msg"]=["msg"=>"For your username just use A-Z, a-z, 0-9, underline or dot.","t_color"=>"white","bg_color"=>"red"];
                 $this->registerForm();
             }else{
-                $pass=md5($pass);
-                if ($db->insertQuery("insert into users (username, password, firstname, lastname, mobile_number, email) values ($username,$pass,$firstname,$lastname,$mobile,$email)")){
+                if (UserModel::registerNewUser($username,$pass,$firstname,$lastname,$mobile,$email)){
                     $_SESSION["msg"]=["msg"=>"Register completed!","t_color"=>"white","bg_color"=>"green"];
                     $this->loginForm();
                 }else{
@@ -73,7 +66,6 @@ class UserController {
                     $this->registerForm();
                 }
             }
-            $db->close();
         }
         else {
             $_SESSION["msg"]=["msg"=>"your email or username already is in server","t_color"=>"white","bg_color"=>"red"];
