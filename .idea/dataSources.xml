@@ -7,11 +7,5 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/matrix_core</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="matrix_judge@localhost" uuid="e96dbdeb-71f2-46ef-a0c9-152e85e58cdf">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/matrix_judge</jdbc-url>
-    </data-source>
   </component>
 </project>
