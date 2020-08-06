@@ -6,6 +6,11 @@
 </head>
 <body>
 <h1 style="display: block; margin: 0 auto">Hello world</h1>
+<p>
+    <?php
+
+    ?>
+</p>
 <h2> salam </h2>
 </body>
 </html>
