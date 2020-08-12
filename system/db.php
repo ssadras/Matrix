@@ -52,8 +52,11 @@ class Db {
         $results=$this->selectQuery($sql);
         if ($results==null){
             return null;
+        }elseif (sizeof($results[0])==1){
+            return $results[0][0];
+        }else {
+            return $results[0];
         }
-        return $results[0];
     }
 
     private function iudQuery ($sql){
