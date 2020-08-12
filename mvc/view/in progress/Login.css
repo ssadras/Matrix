@@ -5,8 +5,8 @@ body{
 	background: url(login_bg.jpg);
 	background-size: cover;
 }
-.box{
 
+.box{
 	padding: 50px;
 	position: absolute;
 	top: 50%;
@@ -16,13 +16,13 @@ body{
 	text-shadow: 3px 3px 4px #f2f2f2;
 	text-align: center;
 }
+
 .box h1{
 	color: #1a1a1a;
 	font-weight: 400;
 	font-size: 38px;
-
-
 }
+
 .box input[type="text"],.box input[type="password"]{
 	border: 0;
 	background: none;
@@ -36,7 +36,6 @@ body{
 	font-size: 22px;
 	border-radius: 28px;
 	transition: 0.25s;
-	
 }
 
 .box input[type="text"]:focus,.box input[type="password"]:focus{
@@ -64,20 +63,20 @@ body{
 	transition: 0.5s;
 	cursor: pointer;
 }
+
 .box input[type="submit"]:hover{
 	border-color: #00b300;
 	background:   #00e600;
-
-
 }
-a{
 
+a{
 	margin: 0;
 	padding: 0 0 20;
 	color: #1a1a1a; 
 	text-shadow: 3px 3px 4px #f2f2f2;
 	text-decoration: none;
 }
+
 a:hover{
 	text-decoration: underline;
 }
