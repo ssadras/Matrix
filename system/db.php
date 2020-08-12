@@ -44,8 +44,8 @@ class Db {
             while ($result=$results->fetch_assoc()){
                 $output[]=$result;
             }
-            return $output;
         }
+        return $output;
     }
 
     public function selectFirstQuery ($sql){
