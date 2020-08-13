@@ -5,9 +5,10 @@ body{
 	background: url(Untitled-11.jpg);
 	background-size: cover;
 }
+
 .box{
 
-	padding: 50px;
+	padding: none;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -17,17 +18,19 @@ body{
 	text-align: center;
 }
 .box h1{
-	color: #1a1a1a;
+	color: gray;
 	font-weight: 400;
 	font-size: 38px;
+	text-shadow: 3px 3px 4px black;
 
 
 }
 .box input[type="text"],.box input[type="password"],.box input[type="email"],.box input[type="tel"]{
 	border: 0;
+	height: 12px;
 	background: none;
 	display: block;
-	margin: 20px auto;
+	margin: 5px auto;
 	text-align: center;
 	border: 3px inset #ff3333;
 	padding: 16px 12px;
@@ -43,11 +46,11 @@ body{
 	width: 340px;
 	border-color: #1a1a1a;
 }
-.box input[type="submit"]{
+.box input[type="button"]{
 	border: 0;
 	background: none;
 	display: block;
-	margin: 20px auto;
+	margin: 10px auto;
 	text-align: center;
 	border: 3px inset #ff3333;
 	padding: 16px 38px;
@@ -58,19 +61,26 @@ body{
 	transition: 0.5s;
 	cursor: pointer;
 }
-.box input[type="submit"]:hover{
+.box input[type="button"]:hover{
 	border-color: #00b300;
 	background:   #00e600;
 
 
 }
+.label{
+	text-shadow: white;
+	text-align: right;
+
+}
 a{
 	border: 0;
 	background: none;
-	display: block;
-	margin: 20px auto;
-	text-align: center;
-	padding: 16px 12px;
+	outline: none;
+	color: darkblue;
+}
+p{
+	border: 0;
+	background: none;
 	outline: none;
 	color: black;
 }
