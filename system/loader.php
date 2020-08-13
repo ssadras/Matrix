@@ -12,6 +12,7 @@ require_once ("common.php");
 require_once ("config.php");
 require_once("db.php");
 require_once ("core.php");
+require_once ("view.php");
 
 function Domain_R (){
     global $config;

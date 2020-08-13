@@ -1,0 +1,141 @@
+[13-Aug-2020 09:38:25 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[13-Aug-2020 09:38:25 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 09:38:25 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 09:38:25 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 09:38:25 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2
+[13-Aug-2020 09:43:21 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[13-Aug-2020 09:43:21 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 09:43:21 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 09:43:21 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:14:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'View' not found in C:\wamp64\www\Matrix\mvc\controller\user.php:32
+Stack trace:
+#0 C:\wamp64\www\Matrix\mvc\controller\user.php(10): UserController->loginForm()
+#1 C:\wamp64\www\Matrix\route.php(12): UserController->login()
+#2 C:\wamp64\www\Matrix\index.php(2): require_once('C:\\wamp64\\www\\M...')
+#3 {main}
+  thrown in C:\wamp64\www\Matrix\mvc\controller\user.php on line 32
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP Notice:  Undefined variable: title in C:\wamp64\www\Matrix\theme\defualt.php on line 4
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:14:37 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:45 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:46 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:18:47 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:9
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP Notice:  Undefined variable: contect in C:\wamp64\www\Matrix\theme\defualt.php on line 10
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:19:20 Asia/Tehran] PHP   6. require_once() C:\wamp64\www\Matrix\system\view.php:10
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP Warning:  extract() expects parameter 1 to be array, string given in C:\wamp64\www\Matrix\system\view.php on line 4
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP   4. UserController->loginForm() C:\wamp64\www\Matrix\mvc\controller\user.php:10
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:32
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP   6. extract() C:\wamp64\www\Matrix\system\view.php:4
+[13-Aug-2020 10:23:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::localhost() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
