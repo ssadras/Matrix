@@ -267,3 +267,13 @@ Stack trace:
 [13-Aug-2020 16:18:54 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
 [13-Aug-2020 16:18:54 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
 [13-Aug-2020 16:18:54 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[13-Aug-2020 16:53:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::login?user=&pass=&submit=++%D9%88%D8%B1%D9%88%D8%AF++() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[13-Aug-2020 16:59:31 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::login?user=&pass=&submit=++%D9%88%D8%B1%D9%88%D8%AF++() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
