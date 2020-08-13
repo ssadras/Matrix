@@ -2,6 +2,7 @@
 class UserModel {
     public static function loginCheckUsernamePass ($username,$pass){
         $db=Db::reader();
+        $pass=md5($pass);
         $result = $db->selectFirstQuery("select * from users where (email=$username or username=$username) and password=$pass");
         return $result;
     }

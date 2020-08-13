@@ -139,3 +139,107 @@ Stack trace:
 #0 C:\wamp64\www\Matrix\index.php(2): require_once()
 #1 {main}
   thrown in C:\wamp64\www\Matrix\route.php on line 12
+[13-Aug-2020 10:28:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::login?username=sadra&password=sadra12345&submit=++%D9%88%D8%B1%D9%88%D8%AF++() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[13-Aug-2020 10:45:36 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::login?username=sadra&password=sadra12345&submit=++%D9%88%D8%B1%D9%88%D8%AF++() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[13-Aug-2020 10:46:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::login?username=sadra&password=sadra12345&submit=++%D9%88%D8%B1%D9%88%D8%AF++() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[13-Aug-2020 10:50:10 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function UserModel::loginCheckUsernamePass(), 0 passed in C:\wamp64\www\Matrix\mvc\controller\user.php on line 17 and exactly 2 expected in C:\wamp64\www\Matrix\mvc\model\user.php:3
+Stack trace:
+#0 C:\wamp64\www\Matrix\mvc\controller\user.php(17): UserModel::loginCheckUsernamePass()
+#1 C:\wamp64\www\Matrix\mvc\controller\user.php(12): UserController->loginCheck('sadra', 'sadra12345')
+#2 C:\wamp64\www\Matrix\route.php(12): UserController->login()
+#3 C:\wamp64\www\Matrix\index.php(2): require_once('C:\\wamp64\\www\\M...')
+#4 {main}
+  thrown in C:\wamp64\www\Matrix\mvc\model\user.php on line 3
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 40
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:52
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 43
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:51:13 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:52
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 40
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:52
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 43
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:52:17 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:52
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP Notice:  Undefined variable: result in C:\wamp64\www\Matrix\system\db.php on line 39
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:53
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 41
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:53
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 44
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:53:07 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:53
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\wamp64\www\Matrix\system\db.php on line 45
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:54:23 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:54
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP Notice:  Undefined variable: result in C:\wamp64\www\Matrix\system\db.php on line 40
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP Stack trace:
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   4. UserController->loginCheck() C:\wamp64\www\Matrix\mvc\controller\user.php:12
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
+[13-Aug-2020 10:56:12 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:55

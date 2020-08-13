@@ -14,7 +14,7 @@ class UserController {
     }
 
     private function loginCheck($username,$pass){
-        $result = UserModel::loginCheckUsernamePass();
+        $result = UserModel::loginCheckUsernamePass($username,$pass);
         if ($result==null){
             $_SESSION["msg"]=["msg"=>"Username or password is incorrect","t_color"=>"white","bg_color"=>"red"];
             $this->loginForm();
