@@ -243,3 +243,8 @@ Stack trace:
 [13-Aug-2020 10:56:12 Asia/Tehran] PHP   5. UserModel::loginCheckUsernamePass() C:\wamp64\www\Matrix\mvc\controller\user.php:17
 [13-Aug-2020 10:56:12 Asia/Tehran] PHP   6. Db->selectFirstQuery() C:\wamp64\www\Matrix\mvc\model\user.php:5
 [13-Aug-2020 10:56:12 Asia/Tehran] PHP   7. Db->selectQuery() C:\wamp64\www\Matrix\system\db.php:55
+[13-Aug-2020 11:21:11 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::login?user=sadra&pass=sadra12345&submit=++%D9%88%D8%B1%D9%88%D8%AF++() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
