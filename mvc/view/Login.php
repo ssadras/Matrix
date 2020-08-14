@@ -5,4 +5,5 @@
 	<input onclick="submission()" type="button" name="submit" id="submit" value="  ورود  ">
     <a href="#">  رمز عبور را فراموش کردم  </a>
 </form>
+<script src="../../js/jquery-3.5.1.min.js"></script>
 <script src="../../js/Login.js"></script>
