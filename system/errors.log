@@ -653,3 +653,43 @@ Stack trace:
 [14-Aug-2020 12:41:52 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
 [14-Aug-2020 12:41:52 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
 [14-Aug-2020 12:41:52 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[14-Aug-2020 14:27:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::Matrix() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 14:27:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::Matrix() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 14:27:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::Matrix() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 14:29:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::Matrix() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 14:29:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::Matrix() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP Notice:  Undefined index: user in C:\wamp64\www\Matrix\mvc\controller\user.php on line 12
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP Notice:  Undefined index: pass in C:\wamp64\www\Matrix\mvc\controller\user.php on line 12
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 14:30:05 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 14:32:20 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::localhost() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12

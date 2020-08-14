@@ -22,11 +22,10 @@ class UserController {
             echo 0;
         }
         else{
-	        echo "test2";
             $_SESSION["user"]=["username"=>$username,"name"=>$result["firstname"]." ".$result["lastname"]];
             $name=$_SESSION["user"]["name"];
             $_SESSION["msg"]=["msg"=>"Welcome $name","t_color"=>"white","bg_color"=>"green"];
-            echo "localhost/Matrix/user/register";
+            echo "../user/register";
         }
         return ;
     }

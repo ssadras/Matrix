@@ -21,17 +21,16 @@ function submission(){
 		alert('چرا همش عدده');
 		return false
 	}
-	$.post('Matrix/user/login',
+	$.post('../user/login',
 	{
-		'username': username.value,
-		'password': password.value,
+		'user': username.value,
+		'pass': password.value,
 		'jsconf': 1 
 	}, function(data){
-		if (data.satues == 0)
+		if (data == 0)
 			alert("چرا عین آدم وارد نمیکنی؟؟");
 		else
-			window.location.replace(data.url);
-	}, 'json'
-	);
+			window.location.replace(data);
+	});
 
 }
