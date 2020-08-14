@@ -39,22 +39,23 @@ function valid_phone_number(){
 	return false;
 }
 
-function register() {
-	if ( (first_name != '' && last_name != '' && username != '' && password != '' && repeat_password != '' && email != '' && phone_number != '') && !all_is_number(username) && !all_is_number(password) && !all_is_number(repeat_password) && equal_passwords() && valid_email() && valid_phone_number() )
+function register_js() {
+	if ( (username != '' && password != '' && repeat_password != '' && email != '') && !all_is_number(username) && !all_is_number(password) && !all_is_number(repeat_password) && equal_passwords() && valid_email() && valid_phone_number() ) {
 		$.post('../user/login',
-		{
-			first_name: first_name,
-			last_name: last_name,
-			username: username,
-			pass: password,
-			repass: repeat_password,
-			mail: email,
-			phone: phone_number
-		},
-		function(data){
-			if (data.statues == 0)
-				alert(data.error);
-			else
-				window.location.replace(data.url);
-		});
+			{
+				first_name: first_name,
+				last_name: last_name,
+				username: username,
+				pass: password,
+				repass: repeat_password,
+				mail: email,
+				phone: phone_number
+			},
+			function (data) {
+				if (data.statues == 0)
+					alert(data.error);
+				else
+					window.location.replace(data.url);
+			});
+	}
 }
