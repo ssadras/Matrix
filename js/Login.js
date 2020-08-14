@@ -21,9 +21,9 @@ function submission(){
 		alert('چرا همش عدده');
 		return false
 	}
-	$.post('Matrix/user/login', data={
-		'username': username.value,
-		'password': password.value,
+	$.post('../user/login', data={
+		'user': username.value,
+		'pass': password.value,
 		'jsconf': 1 
 	});
 

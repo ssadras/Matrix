@@ -6,7 +6,6 @@ class UserController {
             header(Domain_R()."home/");
         }
         if (!isset($_POST["user"]) and !isset($_POST["pass"]) and !isset($_POST["jsconf"])) {
-            $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
             $this->loginForm();
         }else{
         	if ($_POST["jsconf"]=="1"){
@@ -20,14 +19,14 @@ class UserController {
     private function loginCheck($username,$pass){
         $result = UserModel::loginCheckUsernamePass($username,$pass);
         if ($result==null){
-            $_SESSION["msg"]=["msg"=>"Username or password is incorrect","t_color"=>"white","bg_color"=>"red"];
-            $this->loginForm();
+            echo 0;
         }
         else{
+	        echo "test2";
             $_SESSION["user"]=["username"=>$username,"name"=>$result["firstname"]." ".$result["lastname"]];
             $name=$_SESSION["user"]["name"];
             $_SESSION["msg"]=["msg"=>"Welcome $name","t_color"=>"white","bg_color"=>"green"];
-            header(Domain_R()."home/");
+            header("../home");
         }
         return ;
     }
