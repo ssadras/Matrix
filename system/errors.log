@@ -708,3 +708,284 @@ Stack trace:
 [14-Aug-2020 18:57:24 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
 [14-Aug-2020 18:57:24 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
 [14-Aug-2020 18:57:24 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 46
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 46
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 46
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 46
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 46
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function UserModel::registerCheckUsernameEmail(), 0 passed in C:\wamp64\www\Matrix\mvc\controller\user.php on line 51 and exactly 2 expected in C:\wamp64\www\Matrix\mvc\model\user.php:11
+Stack trace:
+#0 C:\wamp64\www\Matrix\mvc\controller\user.php(51): UserModel::registerCheckUsernameEmail()
+#1 C:\wamp64\www\Matrix\mvc\controller\user.php(46): UserController->registerCheck(NULL, 'sadra12345', NULL, NULL, NULL, NULL)
+#2 C:\wamp64\www\Matrix\route.php(12): UserController->register()
+#3 C:\wamp64\www\Matrix\index.php(2): require_once('C:\\wamp64\\www\\M...')
+#4 {main}
+  thrown in C:\wamp64\www\Matrix\mvc\model\user.php on line 11
+[14-Aug-2020 20:18:29 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/mvc.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/mvc.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:18:36 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 48
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 48
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 48
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 48
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 48
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function UserModel::registerCheckUsernameEmail(), 0 passed in C:\wamp64\www\Matrix\mvc\controller\user.php on line 53 and exactly 2 expected in C:\wamp64\www\Matrix\mvc\model\user.php:11
+Stack trace:
+#0 C:\wamp64\www\Matrix\mvc\controller\user.php(53): UserModel::registerCheckUsernameEmail()
+#1 C:\wamp64\www\Matrix\mvc\controller\user.php(48): UserController->registerCheck(NULL, 'sadra12345', NULL, NULL, NULL, NULL)
+#2 C:\wamp64\www\Matrix\route.php(12): UserController->register()
+#3 C:\wamp64\www\Matrix\index.php(2): require_once('C:\\wamp64\\www\\M...')
+#4 {main}
+  thrown in C:\wamp64\www\Matrix\mvc\model\user.php on line 11
+[14-Aug-2020 20:21:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:21:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 44
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 44
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 44
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 44
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 44
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:33:30 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:33:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:40:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:40:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:41:48 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:41:53 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:41:54 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:15 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:17 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:42:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:33 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Notice:  Undefined index: username in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Notice:  Undefined index: email in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Notice:  Undefined index: firstname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Notice:  Undefined index: lastname in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Notice:  Undefined index: mobile in C:\wamp64\www\Matrix\mvc\controller\user.php on line 42
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP Stack trace:
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[14-Aug-2020 20:42:39 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12

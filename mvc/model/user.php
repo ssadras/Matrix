@@ -8,16 +8,22 @@ class UserModel {
         return $result;
     }
 
-    public static function registerCheckUsernameEmail ($username,$email){
+    public static function registerCheckEmail ($email){
         $db=Db::reader();
-        $result=$db->selectQuery("select * from users where username=$username or email=$email");
+        $result=$db->selectQuery("select * from users where email='$email'");
         return $result;
     }
+
+	public static function registerCheckUsername ($username){
+		$db=Db::reader();
+		$result=$db->selectQuery("select * from users where username='$username'");
+		return $result;
+	}
 
     public static function registerNewUser ($username,$pass,$firstname,$lastname,$mobile,$email){
         $db=Db::reader();
         $pass=md5($pass);
-        $result=$db->insertQuery("insert into users (username, password, firstname, lastname, mobile_number, email) values ($username,$pass,$firstname,$lastname,$mobile,$email)");
+        $result=$db->insertQuery("insert into users (username, password, firstname, lastname, phone_number, email) values ('$username','$pass','$firstname','$lastname','$mobile','$email')");
         return $result;
     }
 }

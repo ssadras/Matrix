@@ -44,22 +44,22 @@ function valid_phone_number(){
 
 function submit_register() {
 	if ( (username.value != '' && password.value != '' && repeat_password.value != '' && email.value != '') && !all_is_number(username.value) && !all_is_number(password.value) && !all_is_number(repeat_password.value) && equal_passwords() && valid_email() && valid_phone_number() ) {
-		alert("ایول");
-		$.post('../user/login',
+		$.post('../user/register',
 			{
 				first_name: first_name.value,
 				last_name: last_name.value,
-				username: username.value,
+				user: username.value,
 				pass: password.value,
 				repass: repeat_password.value,
 				mail: email.value,
 				phone: phone_number.value
-			},
-			function (data) {
-				if (data.statues == 0)
+			}, function (data) {
+				data=JSON.parse(data)
+				if (data.status == 0)
 					alert(data.error);
-				else
+				else {
 					window.location.replace(data.url);
+				}
 			});
 	}
 	else{
