@@ -1,16 +1,28 @@
-var username = document.getElementById('username');
-var password = document.getElementById('password');
-var submit = document.getElementById('submit');
-function check_all_number(string) {
+var username = $('#username')[0];
+var password = $('#password')[0];
+var submit = $('#submit')[0];
+
+function all_is_number(string) {
+	if (string.length == 0)
+		return false
 	for (let char of string){
 		if (!('0' <= char && char <= '9'))
 			return false
 	}
 	return true
 }
-function check_empty_value(){
+
+function submission(){
 	if (username.value == '' || password.value == '')
-		alert('salam salam')
-	else if (check_all_number(username.value))
-		alert('چرا همش عدده')
-}
+		alert('salam salam');
+		return false;
+	if (all_is_number(username.value) || all_is_number(password.value))
+		alert('چرا همش عدده');
+		return false
+	$.post('', {
+		'username': username,
+		'password': password,
+		'jsconf': 1 
+	}, next);
+
+}s
