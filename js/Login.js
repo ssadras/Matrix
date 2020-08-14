@@ -1,6 +1,5 @@
 var username = $('#username')[0].value;
 var password = $('#password')[0].value;
-var submit = $('#submit')[0].value;
 
 function all_is_number(string) {
 	if (string.length == 0)
