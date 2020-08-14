@@ -31,8 +31,10 @@ function submit_login(){
 		pass: password.value,
 		jsconf: 1
 	}, function(data){
-		if (all_is_number(username.value) || all_is_number(password.value) || data == 0)
+		if (all_is_number(username.value) || all_is_number(password.value) || data == 0) {
 			eror_box.html("<b>نام کاربری</b> یا <b>رمز عبور</b> اشتباه است<br/>");
+			eror_box.show();
+		}
 		else
 			window.location.replace(data);
 	});
