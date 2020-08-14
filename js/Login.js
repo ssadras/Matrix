@@ -25,6 +25,6 @@ function submission(){
 		'username': username,
 		'password': password,
 		'jsconf': 1 
-	}, next);
+	});
 
 }
