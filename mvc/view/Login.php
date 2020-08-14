@@ -1,4 +1,4 @@
-<div hidden id="eror" class="alert">
+<div hidden id="error" class="alert">
 	<strong > خطا </strong>		
 </div>
 <form class="box">

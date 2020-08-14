@@ -1,6 +1,6 @@
 var username = $('#username')[0];
 var password = $('#password')[0];
-var eror_box = $('#eror');
+var error_box = $('#error');
 
 function all_is_number(string) {
 	if (string.length == 0)
@@ -13,16 +13,16 @@ function all_is_number(string) {
 }
 
 function submit_login(){
-	eror_text = '';
+	error_text = '';
 	if (username.value == '') {
-		eror_text += "<b>نام کاربری</b> را وارد کنید <br/>";
+		error_text += "<b>نام کاربری</b> را وارد کنید <br/>";
 	}
 	if (password.value == ''){
-		eror_text += "<b>رمز عبور</b> را وارد کنید<br/>";
+		error_text += "<b>رمز عبور</b> را وارد کنید<br/>";
 	}
-	if (eror_text != ''){
-		eror_box.html(eror_text);
-		eror_box.show();
+	if (error_text != ''){
+		error_box.html(error_text);
+		error_box.show();
 		return false;
 	}
 	$.post('../user/login',
@@ -32,8 +32,8 @@ function submit_login(){
 		jsconf: 1
 	}, function(data){
 		if (all_is_number(username.value) || all_is_number(password.value) || data == 0) {
-			eror_box.html("<b>نام کاربری</b> یا <b>رمز عبور</b> اشتباه است<br/>");
-			eror_box.show();
+			error_box.html("<b>نام کاربری</b> یا <b>رمز عبور</b> اشتباه است<br/>");
+			error_box.show();
 		}
 		else
 			window.location.replace(data);
