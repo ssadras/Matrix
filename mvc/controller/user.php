@@ -26,7 +26,7 @@ class UserController {
             $_SESSION["user"]=["username"=>$username,"name"=>$result["firstname"]." ".$result["lastname"]];
             $name=$_SESSION["user"]["name"];
             $_SESSION["msg"]=["msg"=>"Welcome $name","t_color"=>"white","bg_color"=>"green"];
-            header("../home");
+            echo "localhost/Matrix/user/register";
         }
         return ;
     }
@@ -78,6 +78,6 @@ class UserController {
     }
 
     private function registerForm(){
-
+		echo "test";
     }
 }
