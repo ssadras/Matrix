@@ -1,5 +1,5 @@
-<div hidden class="alert">
-	<strong > خطا خطا خطا خطا خطا خطا </strong>		
+<div hidden id="eror" class="alert">
+	<strong > خطا </strong>		
 </div>
 <form class="box">
 	<h1>  !وارد شوید </h1>
