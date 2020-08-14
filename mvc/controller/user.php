@@ -34,7 +34,8 @@ class UserController {
 
     public function register (){
         if (isset($_SESSION["user"])){
-	        echo json_encode(array('status' => 1,'url' => '../home','error'=>''));
+        	header("Location: ../home");
+        	return ;
         }
         if (!isset($_POST["username"]) and !isset($_POST["pass"]) and !isset($_POST["email"])) {
 	        $this->registerForm();

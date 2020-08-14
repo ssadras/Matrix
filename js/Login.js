@@ -12,7 +12,7 @@ function all_is_number(string) {
 	return true;
 }
 
-function login(){
+function submit_login(){
 	eror_text = '';
 	if (username.value == '') {
 		eror_text += "<b>نام کاربری</b> را وارد کنید <br/>";
