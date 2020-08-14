@@ -1,16 +1,35 @@
-var username = document.getElementById('username');
-var password = document.getElementById('password');
-var submit = document.getElementById('submit');
-function check_all_number(string) {
+var username = $('#username')[0].value;
+var password = $('#password')[0].value;
+
+function all_is_number(string) {
+	if (string.length == 0)
+		return false;
 	for (let char of string){
 		if (!('0' <= char && char <= '9'))
-			return false
+			return false;
 	}
-	return true
+	return true;
 }
-function check_empty_value(){
-	if (username.value == '' || password.value == '')
-		alert('salam salam')
-	else if (check_all_number(username.value))
-		alert('چرا همش عدده')
+
+function login(){
+	if (username == '' || password == '') {
+		alert('salam salam');
+		return false;
+	}
+	if (all_is_number(username) || all_is_number(password)) {
+		alert('چرا همش عدده');
+		return false
+	}
+	$.post('../user/login',
+	{
+		user: username,
+		pass: password,
+		jsconf: 1
+	}, function(data){
+		if (data == 0)
+			alert("چرا عین آدم وارد نمیکنی؟؟");
+		else
+			window.location.replace(data);
+	});
+
 }
