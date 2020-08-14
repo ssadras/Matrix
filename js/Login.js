@@ -32,7 +32,7 @@ function submit_login(){
 		jsconf: 1
 	}, function(data){
 		if (all_is_number(username.value) || all_is_number(password.value) || data == 0)
-			eror_box.text("<b>نام کاربری</b> یا <b>رمز عبور</b> اشتباه است<br/>");
+			eror_box.html("<b>نام کاربری</b> یا <b>رمز عبور</b> اشتباه است<br/>");
 		else
 			window.location.replace(data);
 	});
