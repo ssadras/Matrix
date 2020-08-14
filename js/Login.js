@@ -23,9 +23,9 @@ function submission(){
 	}
 	$.post('../user/login',
 	{
-		'user': username.value,
-		'pass': password.value,
-		'jsconf': 1 
+		user: username.value,
+		pass: password.value,
+		jsconf: 1
 	}, function(data){
 		if (data == 0)
 			alert("چرا عین آدم وارد نمیکنی؟؟");
