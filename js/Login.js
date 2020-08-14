@@ -1,6 +1,6 @@
-var username = $('#username')[0];
-var password = $('#password')[0];
-var submit = $('#submit')[0];
+var username = $('#username')[0].value;
+var password = $('#password')[0].value;
+var submit = $('#submit')[0].value;
 
 function all_is_number(string) {
 	if (string.length == 0)
@@ -12,19 +12,19 @@ function all_is_number(string) {
 	return true;
 }
 
-function submission(){
-	if (username.value == '' || password.value == '') {
+function login(){
+	if (username == '' || password == '') {
 		alert('salam salam');
 		return false;
 	}
-	if (all_is_number(username.value) || all_is_number(password.value)) {
+	if (all_is_number(username) || all_is_number(password)) {
 		alert('چرا همش عدده');
 		return false
 	}
 	$.post('../user/login',
 	{
-		user: username.value,
-		pass: password.value,
+		user: username,
+		pass: password,
 		jsconf: 1
 	}, function(data){
 		if (data == 0)
