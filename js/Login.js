@@ -22,8 +22,8 @@ function submission(){
 		return false
 	}
 	$.post('Matrix/user/login', data={
-		'username': username,
-		'password': password,
+		'username': username.value,
+		'password': password.value,
 		'jsconf': 1 
 	});
 
