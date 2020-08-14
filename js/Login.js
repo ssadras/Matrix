@@ -4,12 +4,12 @@ var submit = $('#submit')[0];
 
 function all_is_number(string) {
 	if (string.length == 0)
-		return false
+		return false;
 	for (let char of string){
 		if (!('0' <= char && char <= '9'))
-			return false
+			return false;
 	}
-	return true
+	return true;
 }
 
 function submission(){
@@ -23,12 +23,15 @@ function submission(){
 	}
 	$.post('Matrix/user/login',
 	{
-		username: username.value,
-		password: password.value,
-		jsconf: 1 
-	}, function(xhr){
-		alert(xhr.responseText);
-	}
+		'username': username.value,
+		'password': password.value,
+		'jsconf': 1 
+	}, function(data){
+		if (data.satues == 0)
+			alert("چرا عین آدم وارد نمیکنی؟؟");
+		else
+			window.location.replace(data.url);
+	}, 'json'
 	);
 
 }
