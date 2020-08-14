@@ -5,6 +5,16 @@ body{
 	background: url(../image/login_bg.jpg);
 	background-size: cover;
 }
+.alert{
+	width: 10;
+  	background-color: #f44336;
+  	text-align: center;
+  	color: black;
+  	padding: 2px 4px ;
+  	border-radius: 15px;
+  	font-size: 29px;
+
+}
 
 .box{
 	padding: 50px;

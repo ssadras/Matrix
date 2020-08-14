@@ -1,3 +1,6 @@
+<div class="alert">
+	<strong> خطا خطا خطا خطا خطا خطا </strong>		
+</div>
 <form class="box">
 	<h1>  !وارد شوید </h1>
 	<input type="text" name="user" id="username" placeholder="  نام کاربری  ">
