@@ -40,7 +40,7 @@ function valid_phone_number(){
 }
 
 function register() {
-	if ( (first_name != '' && last_name != '' && username != '' && password != '' && repeat_password != '' && email != '' && phone_number != '') && !all_is_number(username) && !all_is_number(password) && !all_is_number(repeat_password) && equal_passwords() && valid_email() && valid_phone_number() )
+	if ( (username != '' && password != '' && repeat_password != '' && email != '') && !all_is_number(username) && !all_is_number(password) && !all_is_number(repeat_password) && equal_passwords() && valid_email() && valid_phone_number() )
 		$.post('../user/login',
 		{
 			first_name: first_name,
