@@ -1,10 +1,10 @@
-var first_name = $('#first_name')[0].value;
-var last_name = $('#last_name')[0].value;
-var username = $('#username')[0].value;
-var password = $('#password')[0].value;
-var repeat_password = $('#repeat_password')[0].value;
-var email = $('#email')[0].value;
-var phone_number = $('#phone_number')[0].value;
+var first_name = $('#first_name')[0];
+var last_name = $('#last_name')[0];
+var username = $('#username')[0];
+var password = $('#password')[0];
+var repeat_password = $('#repeat_password')[0];
+var email = $('#email')[0];
+var phone_number = $('#phone_number')[0];
 
 function all_is_number(string) {
 	if (string.length == 0)
@@ -17,13 +17,13 @@ function all_is_number(string) {
 }
 
 function equal_passwords(){
-	if (password == repeat_password)
+	if (passwor.value == repeat_password.value)
 		return true;
 	return false;
 }
 
 function valid_email(){
-	var email_addsign = email.split("@");
+	var email_addsign = email.value.split("@");
 	if (email_addsign.length != 2 || email_addsign[0] == '' || email_addsign[1] == '')
 		return false;
 	var email_dot = email_addsign[1].split('.');
@@ -33,23 +33,23 @@ function valid_email(){
 }
 
 function valid_phone_number(){
-	var main_number = phone_number.slice(1);
+	var main_number = phone_number.value.slice(1);
 	if ( all_is_number(main_number) && ( (phone_number[0] == '+' && phone_number.length == 13) || (phone_number[0] == '0' && phone_number.length == 11) || (phone_number[0] == '9' && phone_number.length == 10) ) )
 		return true;
 	return false;
 }
 
-function register_js() {
-	if ( (username != '' && password != '' && repeat_password != '' && email != '') && !all_is_number(username) && !all_is_number(password) && !all_is_number(repeat_password) && equal_passwords() && valid_email() && valid_phone_number() ) {
+function submit_register() {
+	if ( (username.value != '' && password.value != '' && repeat_password.value != '' && email.value != '') && !all_is_number(username.value) && !all_is_number(password.value) && !all_is_number(repeat_password.value) && equal_passwords() && valid_email() && valid_phone_number() ) {
 		$.post('../user/login',
 			{
-				first_name: first_name,
-				last_name: last_name,
-				username: username,
-				pass: password,
-				repass: repeat_password,
-				mail: email,
-				phone: phone_number
+				first_name: first_name.value,
+				last_name: last_name.value,
+				username: username.value,
+				pass: password.value,
+				repass: repeat_password.value,
+				mail: email.value,
+				phone: phone_number.value
 			},
 			function (data) {
 				if (data.statues == 0)
