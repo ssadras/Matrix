@@ -77,6 +77,6 @@ class UserController {
     }
 
     private function registerForm(){
-		echo "test";
+		View::render("/register.php","Register.css","Register");
     }
 }
