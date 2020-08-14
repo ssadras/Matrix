@@ -21,7 +21,7 @@ function submission(){
 		alert('چرا همش عدده');
 		return false
 	}
-	$.post('Matrix/user/login', {
+	$.post('Matrix/user/login', data={
 		'username': username,
 		'password': password,
 		'jsconf': 1 
