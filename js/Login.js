@@ -13,11 +13,11 @@ function all_is_number(string) {
 }
 
 function submission(){
-	if (username.val() == '' || password.val() == '') {
+	if (username.value == '' || password.value == '') {
 		alert('salam salam');
 		return false;
 	}
-	if (all_is_number(username.val()) || all_is_number(password.val())) {
+	if (all_is_number(username.value) || all_is_number(password.value)) {
 		alert('چرا همش عدده');
 		return false
 	}
