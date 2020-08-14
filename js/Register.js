@@ -17,7 +17,7 @@ function all_is_number(string) {
 }
 
 function equal_passwords(){
-	if (passwor.value == repeat_password.value)
+	if (password.value == repeat_password.value)
 		return true;
 	return false;
 }
@@ -33,14 +33,18 @@ function valid_email(){
 }
 
 function valid_phone_number(){
+	if (phone_number.value.length == 0)
+		return true;
 	var main_number = phone_number.value.slice(1);
-	if ( all_is_number(main_number) && ( (phone_number[0] == '+' && phone_number.length == 13) || (phone_number[0] == '0' && phone_number.length == 11) || (phone_number[0] == '9' && phone_number.length == 10) ) )
+	alert(main_number);
+	if ( all_is_number(main_number) && ( (phone_number.value[0] == '+' && phone_number.value.length == 13) || (phone_number.value[0] == '0' && phone_number.value.length == 11) || (phone_number.value[0] == '9' && phone_number.value.length == 10) ) )
 		return true;
 	return false;
 }
 
 function submit_register() {
 	if ( (username.value != '' && password.value != '' && repeat_password.value != '' && email.value != '') && !all_is_number(username.value) && !all_is_number(password.value) && !all_is_number(repeat_password.value) && equal_passwords() && valid_email() && valid_phone_number() ) {
+		alert("ایول");
 		$.post('../user/login',
 			{
 				first_name: first_name.value,
@@ -57,5 +61,8 @@ function submit_register() {
 				else
 					window.location.replace(data.url);
 			});
+	}
+	else{
+		alert('ay baba');
 	}
 }
