@@ -13,16 +13,18 @@ function all_is_number(string) {
 }
 
 function submission(){
-	if (username.value == '' || password.value == '')
+	if (username.value == '' || password.value == '') {
 		alert('salam salam');
 		return false;
-	if (all_is_number(username.value) || all_is_number(password.value))
+	}
+	if (all_is_number(username.value) || all_is_number(password.value)) {
 		alert('چرا همش عدده');
 		return false
+	}
 	$.post('', {
 		'username': username,
 		'password': password,
 		'jsconf': 1 
 	}, next);
 
-}s
+}
