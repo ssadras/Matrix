@@ -9,7 +9,7 @@ class UserController {
             $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
             $this->loginForm();
         }else{
-        	if ($_POST["jsconf"]=="ljhgdbtryojh129034930674jonsifow4htgpo"){
+        	if ($_POST["jsconf"]=="1"){
 		        $this->loginCheck($_POST["user"],$_POST["pass"]);
 	        }else{
 		        $this->loginForm();
