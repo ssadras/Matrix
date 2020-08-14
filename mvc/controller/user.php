@@ -5,11 +5,15 @@ class UserController {
             $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
             header(Domain_R()."home/");
         }
-        if (!isset($_POST["user"]) and !isset($_POST["pass"])) {
+        if (!isset($_POST["user"]) and !isset($_POST["pass"]) and !isset($_POST["jsconf"])) {
             $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
             $this->loginForm();
         }else{
-            $this->loginCheck($_POST["user"],$_POST["pass"]);
+        	if ($_POST["jsconf"]=="ljhgdbtryojh129034930674jonsifow4htgpo"){
+		        $this->loginCheck($_POST["user"],$_POST["pass"]);
+	        }else{
+		        $this->loginForm();
+	        }
         }
     }
 
