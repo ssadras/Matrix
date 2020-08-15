@@ -43,7 +43,7 @@ function valid_phone_number(){
 	return false;
 }
 
-function submit_register() {
+function submit_registeration() {
 	error_box.hide();
 	$.post('../user/login',
 	{
