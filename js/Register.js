@@ -5,6 +5,7 @@ var password = $('#password')[0];
 var repeat_password = $('#repeat_password')[0];
 var email = $('#email')[0];
 var phone_number = $('#phone_number')[0];
+var error_box = $('#error');
 
 function all_is_number(string) {
 	if (string.length == 0)
@@ -43,26 +44,39 @@ function valid_phone_number(){
 }
 
 function submit_register() {
-	if ( (username.value != '' && password.value != '' && repeat_password.value != '' && email.value != '') && !all_is_number(username.value) && !all_is_number(password.value) && !all_is_number(repeat_password.value) && equal_passwords() && valid_email() && valid_phone_number() ) {
-		$.post('../user/register',
-			{
-				first_name: first_name.value,
-				last_name: last_name.value,
-				user: username.value,
-				pass: password.value,
-				repass: repeat_password.value,
-				mail: email.value,
-				phone: phone_number.value
-			}, function (data) {
-				data=JSON.parse(data)
-				if (data.status == 0)
-					alert(data.error);
-				else {
-					window.location.replace(data.url);
-				}
-			});
-	}
-	else{
-		alert('ay baba');
-	}
+	error_box.hide();
+	$.post('../user/login',
+	{
+		f_name: first_name.value,
+		l_name: last_name.value,
+		user: username.value;
+		pass: password.value,
+		repass: repeat_password.value,
+		mail: email.value,
+		phone: phone_number.value
+	}, function(data){
+		error_text = '';
+		statues = data.statues;
+		if (username.value == '')
+			error_text += "<b>نام کاربری</b> را وارد کنید<br/>";
+		else if (statues.username == 'invalid')
+			error_text += "<b>نام کاربری</b> تکراری است<br/>";
+		if (password.value == '')
+			error_text += "<b>رمز عبور</b> را وارد کنید<br/>";
+		else if (!equal_passwords() || statues.equal_passwords == 'invalid')
+			error_text += "<b>رمز عبور</b> و تکرار آن مطابقت ندارد<br/>";
+		if (!valid_email() || statues.email == 'invalid')
+			error_text += "<b>ایمیل</b> نامعتبر است<br/>";
+		if (!valid_phone_number() || statues.phone == 'invalid')
+			error_text += "<b>شماره تلفن</b> نامعتبر است<br/>";
+		if (error_text != ''){
+			error_box.html(error_text);
+			error_box.show();
+		}
+		else{
+			window.location.replace(data.url);
+		}
+
+	}, 'json');
+
 }
