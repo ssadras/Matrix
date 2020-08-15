@@ -27,17 +27,11 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-}
-.countdown div{
 	padding: 20px;
-	border: 10px solid black;
+	border: 10px inset black;
 	border-radius: 50px;
-	background: #000;
-	opacity: 0.7;
-	margin: 5px;
-	width: 200px;
-
-
+	margin: 5px auto;
+	width: 50%;
 }
 .countdown span{
 	display: block;
