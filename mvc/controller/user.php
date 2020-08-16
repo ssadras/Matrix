@@ -5,76 +5,84 @@ class UserController {
             $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
             header(Domain_R()."home/");
         }
+<<<<<<< HEAD
         if (!isset($_POST["user"]) or !isset($_POST["pass"])) {
             $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
+=======
+        if (!isset($_POST["user"]) and !isset($_POST["pass"]) and !isset($_POST["jsconf"])) {
+>>>>>>> c52fbb68e70a59a199cfe83a743c4a6f155fb395
             $this->loginForm();
         }else{
-            $this->loginCheck($_POST["user"],$_POST["pass"]);
+        	if ($_POST["jsconf"]=="1"){
+		        $this->loginCheck($_POST["user"],$_POST["pass"]);
+	        }else{
+		        $this->loginForm();
+	        }
         }
     }
 
     private function loginCheck($username,$pass){
-        $result = UserModel::loginCheckUsernamePass();
+        $result = UserModel::loginCheckUsernamePass($username,$pass);
         if ($result==null){
-            $_SESSION["msg"]=["msg"=>"Username or password is incorrect","t_color"=>"white","bg_color"=>"red"];
-            $this->loginForm();
+            echo 0;
         }
         else{
             $_SESSION["user"]=["username"=>$username,"name"=>$result["firstname"]." ".$result["lastname"]];
-            $name=$_SESSION["user"]["name"];
-            $_SESSION["msg"]=["msg"=>"Welcome $name","t_color"=>"white","bg_color"=>"green"];
-            header(Domain_R()."home/");
+            echo "../user/register";
         }
         return ;
     }
 
     private function loginForm(){
+<<<<<<< HEAD
 
+=======
+        View::render("/login.php","login.css","Login");
+>>>>>>> c52fbb68e70a59a199cfe83a743c4a6f155fb395
     }
 
     public function register (){
         if (isset($_SESSION["user"])){
-            $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
-            header(Domain_R()."home/");
+        	header("Location: ../home");
+        	return ;
         }
-        if (!isset($_POST["username"]) and !isset($_POST["pass"]) and !isset($_POST["email"]) and !isset($_POST["firstname"]) and !isset($_POST["lastname"]) and !isset($_POST["mobile"])) {
-            $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
-            $this->registerForm();
+        if (!isset($_POST["username"]) and !isset($_POST["pass"]) and !isset($_POST["email"])) {
+	        $this->registerForm();
         }else{
-            $this->registerCheck($_POST["username"],$_POST["pass"],$_POST["email"],$_POST["firstname"],$_POST["lastname"],$_POST["mobile"]);
+            $this->registerCheck($_POST["user"],$_POST["pass"],$_POST["mail"],$_POST["first_name"],$_POST["last_name"],$_POST["phone"]);
         }
     }
 
     private function registerCheck ($username,$pass,$email,$firstname,$lastname,$mobile){
-        $result = UserModel::registerCheckUsernameEmail();
-        if ($result==null){
+        $result_user = UserModel::registerCheckUsername($username);
+	    $result_email = UserModel::registerCheckEmail($email);
+        if ($result_email==null and $result_user==null){
             if (!CheckEmail($email)){
-                $_SESSION["msg"]=["msg"=>"Enter a Valid email!","t_color"=>"white","bg_color"=>"red"];
-                $this->registerForm();
+	            echo json_encode(array('status' => 0,'url' => '','error'=>'Your email is invalid'));
             }elseif (strlen($pass)<8){
-                $_SESSION["msg"]=["msg"=>"Password Must at least 8 characters","t_color"=>"white","bg_color"=>"red"];
-                $this->registerForm();
+	            echo json_encode(array('status' => 0,'url' => '','error'=>'Your password must al least have 8 characters'));
             }elseif (strpos($username,"/") or strpos($username,"!") or strpos($username,"-") or strpos($username,"@") or strpos($username,"=") or strpos($username,"\\")){
-                $_SESSION["msg"]=["msg"=>"For your username just use A-Z, a-z, 0-9, underline or dot.","t_color"=>"white","bg_color"=>"red"];
-                $this->registerForm();
+	            echo json_encode(array('status' => 0,'url' => '','error'=>'For your username just use A-Z, a-z, 0-9 and underline!'));
             }else{
                 if (UserModel::registerNewUser($username,$pass,$firstname,$lastname,$mobile,$email)){
-                    $_SESSION["msg"]=["msg"=>"Register completed!","t_color"=>"white","bg_color"=>"green"];
-                    $this->loginForm();
+	                echo json_encode(array('status' => 1,'url' => '../user/login','error'=>''));
                 }else{
-                    $_SESSION["msg"]=["msg"=>"Something went wrong! please try again!","t_color"=>"white","bg_color"=>"red"];
-                    $this->registerForm();
+	                echo json_encode(array('status' => 0,'url' => '','error'=>'Somethings went wrong. please try again'));
                 }
             }
         }
         else {
-            $_SESSION["msg"]=["msg"=>"your email or username already is in server","t_color"=>"white","bg_color"=>"red"];
-            header(Domain_R()."home/");
+        	if ($result_user==null){
+		        echo json_encode(array('status' => 0,'url' => '','error'=>'We already have this email.'));
+	        } else{
+		        echo json_encode(array('status' => 0,'url' => '','error'=>'We already have this username.'));
+	        }
+
         }
         return ;
     }
 
     private function registerForm(){
-
+		View::render("/register.php","Register.css","Register");
     }
 }

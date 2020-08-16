@@ -37,23 +37,28 @@ class Db {
     public function selectQuery ($sql){
         $results=$this->db->query($sql);
         $output=array();
-        if ($results->num_rows == 0){
-            $output=null;
+        if ($results==null){
+            return null;
+        }elseif ($results->num_rows == 0){
+        	$output=null;
         }
         if ($results->num_rows > 0){
             while ($result=$results->fetch_assoc()){
                 $output[]=$result;
             }
-            return $output;
         }
+        return $output;
     }
 
     public function selectFirstQuery ($sql){
         $results=$this->selectQuery($sql);
         if ($results==null){
             return null;
+        }elseif (sizeof($results[0])==1){
+            return $results[0][0];
+        }else {
+            return $results[0];
         }
-        return $results[0];
     }
 
     private function iudQuery ($sql){

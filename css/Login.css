@@ -2,8 +2,18 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: B titr;
-	background: url(login_bg.jpg);
+	background: url(../image/login_bg.jpg);
 	background-size: cover;
+}
+.alert{
+	width: 10;
+  	background-color: #f44336;
+  	text-align: center;
+  	color: black;
+  	padding: 2px 4px ;
+  	border-radius: 15px;
+  	font-size: 29px;
+
 }
 
 .box{
@@ -48,7 +58,7 @@ body{
 	border-color: #1a1a1a;
 }
 
-.box input[type="submit"]{
+.box input[type="button"]{
 	border: 0;
 	background: none;
 	display: block;
@@ -64,19 +74,21 @@ body{
 	cursor: pointer;
 }
 
-.box input[type="submit"]:hover{
+.box input[type="button"]:hover{
 	border-color: #00b300;
 	background:   #00e600;
 }
 
-a{
+.box a{
+	color: darkblue;
 	margin: 0;
 	padding: 0 0 20;
-	color: #1a1a1a; 
 	text-shadow: 3px 3px 4px #f2f2f2;
 	text-decoration: none;
+	
 }
 
-a:hover{
+.box a:hover{
+	color: darkblue;
 	text-decoration: underline;
 }
