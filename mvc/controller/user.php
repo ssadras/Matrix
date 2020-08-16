@@ -5,7 +5,7 @@ class UserController {
             $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
             header(Domain_R()."home/");
         }
-        if (!isset($_POST["user"]) and !isset($_POST["pass"])) {
+        if (!isset($_POST["user"]) or !isset($_POST["pass"])) {
             $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
             $this->loginForm();
         }else{
@@ -29,7 +29,7 @@ class UserController {
     }
 
     private function loginForm(){
-        
+
     }
 
     public function register (){
