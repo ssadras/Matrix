@@ -17,33 +17,42 @@ function all_is_number(string) {
 	return true;
 }
 
-function equal_passwords(){
-	if (password.value == repeat_password.value)
+function invalid_username(){
+	if (username.value.length < 6)
+		return true;
+	for (let char of username.value)
+		if ( !('A' <= char && char <= 'Z') && !('a' <= char && char <= 'z') && !('0' <= char && char <= '9') && char != '_' && char != '-' && char != '.')
+			return true;
+	return false;
+}
+
+function invalid_password(){
+	if (password.value.length < 8)
 		return true;
 	return false;
 }
 
-function valid_email(){
+function invalid_email(){
 	var email_addsign = email.value.split("@");
 	if (email_addsign.length != 2 || email_addsign[0] == '' || email_addsign[1] == '')
-		return false;
+		return true;
 	var email_dot = email_addsign[1].split('.');
 	if (email_dot.length != 2 || email_dot[0] == '' || email_dot[1] == '')
+		return true;
+	return false;
+}
+
+function invalid_phone_number(){
+	if (phone_number.value.length == 0)
+		return false;
+	var main_number = phone_number.value.slice(1);
+	alert(main_number);
+	if ( all_is_number(main_number) && ( (phone_number.value[0] == '+' && phone_number.value.length == 13) || (phone_number.value[0] == '0' && phone_number.value.length == 11) || (phone_number.value[0] == '9' && phone_number.value.length == 10) ) )
 		return false;
 	return true;
 }
 
-function valid_phone_number(){
-	if (phone_number.value.length == 0)
-		return true;
-	var main_number = phone_number.value.slice(1);
-	alert(main_number);
-	if ( all_is_number(main_number) && ( (phone_number.value[0] == '+' && phone_number.value.length == 13) || (phone_number.value[0] == '0' && phone_number.value.length == 11) || (phone_number.value[0] == '9' && phone_number.value.length == 10) ) )
-		return true;
-	return false;
-}
-
-function submit_registeration() {
+function submit_register() {
 	error_box.hide();
 	$.post('../user/login',
 	{
@@ -63,11 +72,11 @@ function submit_registeration() {
 			error_text += "<b>نام کاربری</b> تکراری است<br/>";
 		if (password.value == '')
 			error_text += "<b>رمز عبور</b> را وارد کنید<br/>";
-		else if (!equal_passwords() || statues.equal_passwords == 'invalid')
+		else if (password.value != repeat_password.value || statues.equal_passwords == 'invalid')
 			error_text += "<b>رمز عبور</b> و تکرار آن مطابقت ندارد<br/>";
-		if (!valid_email() || statues.email == 'invalid')
+		if (invalid_email() || statues.email == 'invalid')
 			error_text += "<b>ایمیل</b> نامعتبر است<br/>";
-		if (!valid_phone_number() || statues.phone == 'invalid')
+		if (invalid_phone_number() || statues.phone == 'invalid')
 			error_text += "<b>شماره تلفن</b> نامعتبر است<br/>";
 		if (error_text != ''){
 			error_box.html(error_text);
