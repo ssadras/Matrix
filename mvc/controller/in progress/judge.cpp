@@ -34,21 +34,6 @@ DWORD WINAPI timer(LPVOID lpParameter)
 	exit(1);
 	return 0;
 }
-
-//int main(int argc, char* argv[])
-//{
-//	unsigned int myCounter = 0;
-//	DWORD myThreadID;
-//	HANDLE myHandle = CreateThread(0, 0, myThread, &myCounter, 0, &myThreadID);
-//	char myChar = ' ';
-//	while(myChar != 'q') {
-//		cout << myCounter << endl;
-//		myChar = getchar();
-//	}
-//	
-//	CloseHandle(myHandle);
-//	return 0;
-//}
 int main(){
 	ifstream fin;
 	int i = 1;
@@ -187,6 +172,57 @@ int main(){
 			out.close();
 			string w = name+" < in.txt > out.txt";
 			string cmd = ".\\lans\\Python\\java.exe ";
+			cmd += w;
+			myHandle = CreateThread(0, 0, timer, 0, 0, &myThreadID);
+			system(cmd.c_str());
+			CloseHandle(myHandle);
+			string s1;
+			i = "00000";
+			while (i.length() > 1){
+				getline(ans, i);
+				s1 += i;
+			}
+			string s2;
+			ifstream ut;
+			ut.open("out.txt");
+			i = "00000";
+			while (i.length() > 1){
+				getline(ut, i);
+				s2 += i;
+			}
+			if(s1 != s2){
+				status = "Wrong Answer";
+			}
+			if(status != "Accepted"){
+				break;
+			}
+			ut.close();
+		}
+		inp.close();
+		ans.close();
+		ofstream res;
+		res.open("result.txt");
+		res << status;
+		res.close();
+	}
+	if(language == "Ruby"){
+		ifstream inp;
+		inp.open("input.txt");
+		ifstream ans;
+		ans.open("answer.txt");
+		while(inp){
+			string s;
+			string i = "00000";
+			while (i.length() > 1){
+				getline(inp, i);
+				s += i;
+			}
+			ofstream out;
+			out.open("in.txt");
+			out << s;
+			out.close();
+			string w = name+".rb < in.txt > out.txt";
+			string cmd = ".\\lans\\Ruby\\bin\\ruby.exe ";
 			cmd += w;
 			myHandle = CreateThread(0, 0, timer, 0, 0, &myThreadID);
 			system(cmd.c_str());
