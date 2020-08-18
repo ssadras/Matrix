@@ -54,7 +54,7 @@ function invalid_phone_number(){
 
 function submit_register() {
 	error_box.hide();
-	$.post('../user/login',
+	$.post('../user/register',
 	{
 		f_name: first_name.value,
 		l_name: last_name.value,
@@ -62,22 +62,25 @@ function submit_register() {
 		pass: password.value,
 		repass: repeat_password.value,
 		mail: email.value,
-		phone: phone_number.value
+		phone: phone_number.value,
+		jsconf: 1
 	}, function(data){
 		var error_text = '';
-		status = data.status;
 		if (username.value == '')
 			error_text += "<b>نام کاربری</b> را وارد کنید<br/>";
-		else if (status.username == 'invalid')
+		if (data.status.username == 'invalid')
 			error_text += "<b>نام کاربری</b> تکراری است<br/>";
 		if (password.value == '')
 			error_text += "<b>رمز عبور</b> را وارد کنید<br/>";
-		else if (password.value != repeat_password.value || status.equal_passwords == 'invalid')
+		else if (password.value != repeat_password.value || data.status.equal_passwords == 'invalid')
 			error_text += "<b>رمز عبور</b> و تکرار آن مطابقت ندارد<br/>";
-		if (invalid_email() || status.email == 'invalid')
+		if (invalid_email() || data.status.email == 'invalid')
 			error_text += "<b>ایمیل</b> نامعتبر است<br/>";
-		if (invalid_phone_number() || status.phone == 'invalid')
+		if (invalid_phone_number() || data.status.phone == 'invalid')
 			error_text += "<b>شماره تلفن</b> نامعتبر است<br/>";
+		if (data.status.system_error == "invalid")
+			error_text += "مشکلی در سرور به وجود آمده. دوباره تلاش کنید<br/>";
+		alert(error_text);
 		if (error_text != ''){
 			error_box.html(error_text);
 			error_box.show();

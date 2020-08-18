@@ -2,7 +2,7 @@
 class UserController {
     public function login (){
         if (isset($_SESSION["user"])){
-            $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
+	        $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
             header(Domain_R()."home/");
         }
         if (!isset($_POST["user"]) and !isset($_POST["pass"]) and !isset($_POST["jsconf"])) {
@@ -33,43 +33,45 @@ class UserController {
     }
 
     public function register (){
-        if (isset($_SESSION["user"])){
+        /*if (isset($_SESSION["user"])){
         	header("Location: ../home");
         	return ;
-        }
+        }*/
         if (!isset($_POST["username"]) and !isset($_POST["pass"]) and !isset($_POST["email"])) {
 	        $this->registerForm();
         }else{
-            $this->registerCheck($_POST["user"],$_POST["pass"],$_POST["mail"],$_POST["first_name"],$_POST["last_name"],$_POST["phone"]);
+            $this->registerCheck($_POST["user"],$_POST["pass"],$_POST["mail"],$_POST["f_name"],$_POST["l_name"],$_POST["phone"],$_POST["repass"]);
         }
     }
 
-    private function registerCheck ($username,$pass,$email,$firstname,$lastname,$mobile){
+    private function registerCheck ($username,$pass,$email,$firstname,$lastname,$mobile,$repass){
         $result_user = UserModel::registerCheckUsername($username);
 	    $result_email = UserModel::registerCheckEmail($email);
-        if ($result_email==null and $result_user==null){
-            if (!CheckEmail($email)){
-	            echo json_encode(array('status' => 0,'url' => '','error'=>'Your email is invalid'));
-            }elseif (strlen($pass)<8){
-	            echo json_encode(array('status' => 0,'url' => '','error'=>'Your password must al least have 8 characters'));
-            }elseif (strpos($username,"/") or strpos($username,"!") or strpos($username,"-") or strpos($username,"@") or strpos($username,"=") or strpos($username,"\\")){
-	            echo json_encode(array('status' => 0,'url' => '','error'=>'For your username just use A-Z, a-z, 0-9 and underline!'));
-            }else{
-                if (UserModel::registerNewUser($username,$pass,$firstname,$lastname,$mobile,$email)){
-	                echo json_encode(array('status' => 1,'url' => '../user/login','error'=>''));
-                }else{
-	                echo json_encode(array('status' => 0,'url' => '','error'=>'Somethings went wrong. please try again'));
-                }
-            }
-        }
-        else {
-        	if ($result_user==null){
-		        echo json_encode(array('status' => 0,'url' => '','error'=>'We already have this email.'));
-	        } else{
-		        echo json_encode(array('status' => 0,'url' => '','error'=>'We already have this username.'));
-	        }
-
-        }
+	    $status=array("username" => "valid","equal_passwords"=>"valid","email"=>"valid","phone"=>"valid","system_error"=>"valid");
+	    if ($result_user!=null){
+		    $status["username"]="invalid";
+	    }
+	    if ($result_email!=null) {
+		    $status["email"] = "invalid";
+	    }
+	    if (!CheckEmail($email)){
+	    	$status["email"]="invalid";
+	    }
+	    if (strpos($username,"/") or strpos($username,"!") or strpos($username,"-") or strpos($username,"@") or strpos($username,"=") or strpos($username,"\\")){
+	    	$status["username"]="invalid";
+	    }
+	    if ($pass!=$repass){
+	    	$status["equal_passwords"]="invalid";
+	    }elseif ($status["username"]=="valid" and $status["email"]=="valid" and $status["equal_passwords"]=="valid"){
+	    	if (UserModel::registerNewUser($username,$pass,$firstname,$lastname,$mobile,$email)){
+	    		2+2;
+	    	}else{
+	    		$status["system_error"]="invalid";
+	    	}
+	    }
+        //$respond=json_encode(array('status' => $status,'url' => '../user/login'));
+        //echo $respond;
+	    echo json_encode(array('status' => $status,'url' => '../user/login'));
         return ;
     }
 
