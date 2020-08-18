@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fSAQVhE10m84NQPGGAISjp4p4U" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Matrix\mvc\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Matrix\css" />
+      <recent name="C:\wamp64\www\Matrix\image" />
+      <recent name="C:\wamp64\www\Matrix\js" />
+      <recent name="C:\wamp64\www\Matrix\mvc\view" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="" />
+      <created>1596201103872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596201103872</updated>
+      <workItem from="1596201107170" duration="156000" />
+      <workItem from="1596202277381" duration="305000" />
+      <workItem from="1596262892834" duration="1460000" />
+      <workItem from="1596433151130" duration="123000" />
+      <workItem from="1596608969057" duration="417000" />
+      <workItem from="1596704098791" duration="3540000" />
+      <workItem from="1597132682339" duration="78000" />
+      <workItem from="1597230134780" duration="2875000" />
+      <workItem from="1597236719195" duration="1984000" />
+      <workItem from="1597251640070" duration="2926000" />
+      <workItem from="1597294368958" duration="88000" />
+      <workItem from="1597294504299" duration="7601000" />
+      <workItem from="1597381444929" duration="2331000" />
+      <workItem from="1597386553064" duration="20034000" />
+      <workItem from="1597491893928" duration="11000" />
+      <workItem from="1597497432535" duration="2519000" />
+      <workItem from="1597549477922" duration="48000" />
+      <workItem from="1597554286461" duration="287000" />
+      <workItem from="1597762437255" duration="3293000" />
+    </task>
+    <task id="LOCAL-00001" summary="Database structure Changed">
+      <created>1596264413106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596264413106</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Database changed">
+      <created>1596433260003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596433260003</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Advertisement table added">
+      <created>1596704650309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596704650309</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Advertisement model added">
+      <created>1596705465345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596705465345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Problemset Model created and quesGetById function added.">
+      <created>1596708261208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596708261208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="writing structure get better">
+      <created>1597230468954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597230468954</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new database added">
+      <created>1597233876747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597233876747</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Judge.php file created and getStatusByProbId function added to it">
+      <created>1597238693451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597238693451</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Judge status functions added">
+      <created>1597254408356</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597254408356</updated>
+    </task>
+    <task id="LOCAL-00010" summary="View part of login mvc created">
+      <created>1597298274971</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597298274971</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bugs fixed">
+      <created>1597300611260</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597300611260</updated>
+    </task>
+    <task id="LOCAL-00012" summary="css bug fixed">
+      <created>1597302547162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597302547162</updated>
+    </task>
+    <task id="LOCAL-00013" summary="security improved">
+      <created>1597383625993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597383625993</updated>
+    </task>
+    <task id="LOCAL-00014" summary="security improved">
+      <created>1597383684942</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597383684942</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Jquery Connected to the theme">
+      <created>1597387412868</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597387412868</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Js bug fixes">
+      <created>1597388516126</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597388516126</updated>
+    </task>
+    <task id="LOCAL-00017" summary="$.post method bug fixed">
+      <created>1597390189524</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1597390189524</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Php bugs fixes">
+      <created>1597392389938</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1597392389938</updated>
+    </task>
+    <task id="LOCAL-00019" summary="redirect bug fixed">
+      <created>1597393398294</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1597393398294</updated>
+    </task>
+    <task id="LOCAL-00020" summary="redirect bugs fixed in java and php">
+      <created>1597399407499</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1597399407499</updated>
+    </task>
+    <task id="LOCAL-00021" summary="js improved">
+      <created>1597399921409</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597399921409</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Register files Divided">
+      <created>1597415704034</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1597415704034</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Register.html delete">
+      <created>1597415831879</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1597415831879</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Unnecessary fields get out of important mode">
+      <created>1597417613016</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597417613016</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Register js connected to php">
+      <created>1597427058814</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1597427058814</updated>
+    </task>
+    <task id="LOCAL-00026" summary="php redirect for login and register fixed">
+      <created>1597427901442</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597427901442</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bug fixed">
+      <created>1597428653159</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428653159</updated>
+    </task>
+    <task id="LOCAL-00028" summary="bugs fixed">
+      <created>1597428769046</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428769046</updated>
+    </task>
+    <task id="LOCAL-00029" summary="dictation corrected">
+      <created>1597429071753</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1597429071753</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test files deleted">
+      <created>1597508322754</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597508322754</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Hassan commit problem solved">
+      <created>1597765604901</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1597765604901</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Problemset Model created and quesGetById function added." />
+    <MESSAGE value="writing structure get better" />
+    <MESSAGE value="new database added" />
+    <MESSAGE value="Judge.php file created and getStatusByProbId function added to it" />
+    <MESSAGE value="Judge status functions added" />
+    <MESSAGE value="View part of login mvc created" />
+    <MESSAGE value="css bug fixed" />
+    <MESSAGE value="security improved" />
+    <MESSAGE value="Jquery Connected to the theme" />
+    <MESSAGE value="Js bug fixes" />
+    <MESSAGE value="$.post method bug fixed" />
+    <MESSAGE value="Php bugs fixes" />
+    <MESSAGE value="redirect bug fixed" />
+    <MESSAGE value="redirect bugs fixed in java and php" />
+    <MESSAGE value="js improved" />
+    <MESSAGE value="Register files Divided" />
+    <MESSAGE value="Register.html delete" />
+    <MESSAGE value="Unnecessary fields get out of important mode" />
+    <MESSAGE value="Register js connected to php" />
+    <MESSAGE value="php redirect for login and register fixed" />
+    <MESSAGE value="bug fixed" />
+    <MESSAGE value="bugs fixed" />
+    <MESSAGE value="dictation corrected" />
+    <MESSAGE value="test files deleted" />
+    <MESSAGE value="Hassan commit problem solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hassan commit problem solved" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1597254037880" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596264011939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596264011939" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597549523453">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597549523453" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1597422425282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597422425282" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1597422425282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597422425282" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1597422425282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597422425281" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1597422425282">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597422425282" />
+    <state width="201" height="457" key="HiddenNamespacesPopup" timestamp="1596263995923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="201" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1596263995923" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1597428786329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1597428786329" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1597428786335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1597428786335" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1597415424114">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597765625143">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597765625143" />
+    <state x="362" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597252072995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="362" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1597252072995" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597254501873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597254501873" />
+  </component>
+</project>

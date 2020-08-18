@@ -64,19 +64,19 @@ function submit_register() {
 		mail: email.value,
 		phone: phone_number.value
 	}, function(data){
-		error_text = '';
-		statues = data.statues;
+		var error_text = '';
+		status = data.status;
 		if (username.value == '')
 			error_text += "<b>نام کاربری</b> را وارد کنید<br/>";
-		else if (statues.username == 'invalid')
+		else if (status.username == 'invalid')
 			error_text += "<b>نام کاربری</b> تکراری است<br/>";
 		if (password.value == '')
 			error_text += "<b>رمز عبور</b> را وارد کنید<br/>";
-		else if (password.value != repeat_password.value || statues.equal_passwords == 'invalid')
+		else if (password.value != repeat_password.value || status.equal_passwords == 'invalid')
 			error_text += "<b>رمز عبور</b> و تکرار آن مطابقت ندارد<br/>";
-		if (invalid_email() || statues.email == 'invalid')
+		if (invalid_email() || status.email == 'invalid')
 			error_text += "<b>ایمیل</b> نامعتبر است<br/>";
-		if (invalid_phone_number() || statues.phone == 'invalid')
+		if (invalid_phone_number() || status.phone == 'invalid')
 			error_text += "<b>شماره تلفن</b> نامعتبر است<br/>";
 		if (error_text != ''){
 			error_box.html(error_text);
