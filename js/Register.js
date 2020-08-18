@@ -58,7 +58,7 @@ function submit_register() {
 	{
 		f_name: first_name.value,
 		l_name: last_name.value,
-		user: username.value;
+		user: username.value,
 		pass: password.value,
 		repass: repeat_password.value,
 		mail: email.value,
