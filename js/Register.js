@@ -18,6 +18,8 @@ function all_is_number(string) {
 }
 
 function invalid_username(){
+	if (username.value.length < 6)
+		return true;
 	for (let char of username.value)
 		if ( !('A' <= char && char <= 'Z') && !('a' <= char && char <= 'z') && !('0' <= char && char <= '9') && char != '_' && char != '-' && char != '.')
 			return true;
@@ -25,9 +27,8 @@ function invalid_username(){
 }
 
 function invalid_password(){
-	for (let char of password.value)
-		if ( !(32 <= char.charCodeAt() && char.charCodeAt() <= 126) )
-			return true;
+	if (password.value.length < 8)
+		return true;
 	return false;
 }
 
@@ -67,18 +68,10 @@ function submit_register() {
 		statues = data.statues;
 		if (username.value == '')
 			error_text += "<b>نام کاربری</b> را وارد کنید<br/>";
-		else if (username.value.length < 6)
-			error_text += "<b> نام کاربری</b> باید حداقل 6 کاراکتر باشد<br/>";
-		if (invalid_username())
-			error_text += "<b>نام کاربری</b> تنها باید شامل حروف لاتین و کاراکترهای _، - و . باشد<br/>";
 		else if (statues.username == 'invalid')
 			error_text += "<b>نام کاربری</b> تکراری است<br/>";
 		if (password.value == '')
 			error_text += "<b>رمز عبور</b> را وارد کنید<br/>";
-		else if (password.value.length < 8)
-			error_text += "<b>رمز عبور<b> باید حداقل 8 کاراکتر باشد<br/>";
-		if (invalid_password())
-			error_text += "<b>رمز عبور</b> نباید شامل کاراکترهای نامتعارف باشد<br/>";
 		else if (password.value != repeat_password.value || statues.equal_passwords == 'invalid')
 			error_text += "<b>رمز عبور</b> و تکرار آن مطابقت ندارد<br/>";
 		if (invalid_email() || statues.email == 'invalid')

@@ -5,12 +5,7 @@ class UserController {
             $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
             header(Domain_R()."home/");
         }
-<<<<<<< HEAD
-        if (!isset($_POST["user"]) or !isset($_POST["pass"])) {
-            $_SESSION["msg"]=["msg"=>"Please complete all of the boxes.","t_color"=>"white","bg_color"=>"red"];
-=======
         if (!isset($_POST["user"]) and !isset($_POST["pass"]) and !isset($_POST["jsconf"])) {
->>>>>>> c52fbb68e70a59a199cfe83a743c4a6f155fb395
             $this->loginForm();
         }else{
         	if ($_POST["jsconf"]=="1"){
@@ -34,11 +29,7 @@ class UserController {
     }
 
     private function loginForm(){
-<<<<<<< HEAD
-
-=======
         View::render("/login.php","login.css","Login");
->>>>>>> c52fbb68e70a59a199cfe83a743c4a6f155fb395
     }
 
     public function register (){
