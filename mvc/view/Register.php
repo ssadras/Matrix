@@ -23,7 +23,7 @@
 		<span class="checkmark"></span>
 	</label>
 	<p> <a href="#">قوانین و مقررات </a>را قبول دارم</p>
-	<input onclick="submit_registeration()" type="button" name="Register" id="Register" value=" ثبت نام ">
+	<input onclick="submit_register()" type="button" name="Register" id="Register" value=" ثبت نام ">
 	<p>  قبلا ثبت نام کردید ؟ <a href="#">  وارد شوید   </a> </p>
 </form>
 <script src="../js/Register.js"></script>

@@ -1017,3 +1017,185 @@ Stack trace:
 [14-Aug-2020 22:27:43 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
 [14-Aug-2020 22:27:43 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
 [14-Aug-2020 22:27:43 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 21:25:16 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:34:26 Asia/Tehran] PHP Notice:  Undefined index: jsconf in C:\wamp64\www\Matrix\mvc\controller\user.php on line 11
+[18-Aug-2020 23:34:26 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:34:26 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:34:26 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:34:26 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[18-Aug-2020 23:34:32 Asia/Tehran] PHP Notice:  Undefined index: jsconf in C:\wamp64\www\Matrix\mvc\controller\user.php on line 11
+[18-Aug-2020 23:34:32 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:34:32 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:34:32 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:34:32 Asia/Tehran] PHP   3. UserController->login() C:\wamp64\www\Matrix\route.php:12
+[18-Aug-2020 23:35:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:36:50 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:36:53 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:28 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:40 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:46 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:37:58 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:38:54 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:40:26 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP Notice:  Undefined offset: 2 in C:\wamp64\www\Matrix\route.php on line 9
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP Warning:  require_once(./mvc/controller/home.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/controller/home.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\core.php on line 6
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:40:30 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[18-Aug-2020 23:41:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::undefined() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP Notice:  Undefined index: first_name in C:\wamp64\www\Matrix\mvc\controller\user.php on line 43
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP Notice:  Undefined index: last_name in C:\wamp64\www\Matrix\mvc\controller\user.php on line 43
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:42:38 Asia/Tehran] PHP   3. UserController->register() C:\wamp64\www\Matrix\route.php:12
+[18-Aug-2020 23:46:01 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[18-Aug-2020 23:46:01 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:46:01 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:46:01 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:46:01 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2
+[18-Aug-2020 23:46:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::%3Cbr%20() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[18-Aug-2020 23:47:12 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[18-Aug-2020 23:47:12 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:47:12 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:47:12 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:47:12 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2
+[18-Aug-2020 23:47:12 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::%3Cbr%20() in C:\wamp64\www\Matrix\route.php:12
+Stack trace:
+#0 C:\wamp64\www\Matrix\index.php(2): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\Matrix\route.php on line 12
+[18-Aug-2020 23:59:22 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[18-Aug-2020 23:59:22 Asia/Tehran] PHP Stack trace:
+[18-Aug-2020 23:59:22 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[18-Aug-2020 23:59:22 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[18-Aug-2020 23:59:22 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2
