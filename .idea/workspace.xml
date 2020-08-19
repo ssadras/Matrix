@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/Register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +90,7 @@
       <workItem from="1597497432535" duration="2519000" />
       <workItem from="1597549477922" duration="48000" />
       <workItem from="1597554286461" duration="287000" />
-      <workItem from="1597762437255" duration="7883000" />
+      <workItem from="1597762437255" duration="8253000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -320,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597766477226</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Register php connected to register javascript">
+      <created>1597779284155</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1597779284155</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +343,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="writing structure get better" />
     <MESSAGE value="new database added" />
     <MESSAGE value="Judge.php file created and getStatusByProbId function added to it" />
     <MESSAGE value="Judge status functions added" />
@@ -365,7 +367,8 @@
     <MESSAGE value="test files deleted" />
     <MESSAGE value="Hassan commit problem solved" />
     <MESSAGE value="Dictation changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dictation changed" />
+    <MESSAGE value="Register php connected to register javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register php connected to register javascript" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -412,10 +415,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597766562046">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597779286069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597766562046" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597779286069" />
     <state x="362" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597252072995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

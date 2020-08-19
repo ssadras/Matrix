@@ -33,10 +33,10 @@ class UserController {
     }
 
     public function register (){
-        /*if (isset($_SESSION["user"])){
+        if (isset($_SESSION["user"])){
         	header("Location: ../home");
         	return ;
-        }*/
+        }
         if (!isset($_POST["username"]) and !isset($_POST["pass"]) and !isset($_POST["email"])) {
 	        $this->registerForm();
         }else{
