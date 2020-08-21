@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,6 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -91,6 +91,10 @@
       <workItem from="1597549477922" duration="48000" />
       <workItem from="1597554286461" duration="287000" />
       <workItem from="1597762437255" duration="8253000" />
+      <workItem from="1597825649588" duration="299000" />
+      <workItem from="1597856887191" duration="20000" />
+      <workItem from="1597857467580" duration="658000" />
+      <workItem from="1598013744463" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -323,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597779284155</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="some register buxs fixed">
+      <created>1597825795973</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1597825795973</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +354,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new database added" />
     <MESSAGE value="Judge.php file created and getStatusByProbId function added to it" />
     <MESSAGE value="Judge status functions added" />
     <MESSAGE value="View part of login mvc created" />
@@ -368,7 +378,8 @@
     <MESSAGE value="Hassan commit problem solved" />
     <MESSAGE value="Dictation changed" />
     <MESSAGE value="Register php connected to register javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="Register php connected to register javascript" />
+    <MESSAGE value="some register buxs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="some register buxs fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -379,6 +390,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596264011939" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1598014596461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1598014596461" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597549523453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -415,10 +430,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597779286069">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597825797508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597779286069" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597825797508" />
     <state x="362" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597252072995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
