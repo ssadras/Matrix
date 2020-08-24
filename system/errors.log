@@ -1219,3 +1219,8 @@ Stack trace:
 [21-Aug-2020 17:20:42 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
 [21-Aug-2020 17:20:42 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
 [21-Aug-2020 17:20:42 Asia/Tehran] PHP   3. __autoload() C:\wamp64\www\Matrix\route.php:11
+[25-Aug-2020 02:56:59 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[25-Aug-2020 02:56:59 Asia/Tehran] PHP Stack trace:
+[25-Aug-2020 02:56:59 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[25-Aug-2020 02:56:59 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[25-Aug-2020 02:56:59 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2

@@ -4,6 +4,20 @@ body{
 	font-family: B titr;
 	background: url(../image/login_bg.jpg);
 	background-size: cover;
+	background: linear-gradient(7deg, #00ffcc, #0d0d0d, #0d0d0d, #00ffcc);
+	background-size: 400% 400%;
+	animation: gradient 23s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .alert{
 	width: 10;
