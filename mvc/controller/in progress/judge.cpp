@@ -6,7 +6,7 @@ using namespace std;
 #include <windows.h>
 int time_limit;
 bool ontime = true;
-HANDLE myHandle;
+HANDLE myHandle, myHandle2;
 ofstream res;
 string inputs[100000000];
 DWORD WINAPI timer(LPVOID lpParameter)
@@ -28,6 +28,10 @@ DWORD WINAPI timer(LPVOID lpParameter)
 	res.open("result.txt");
 	res << "Time Limit Exceeded";
 }
+DWORD WINAPI judge2(LPVOID lpParameter){
+	unsigned int& myCounter = *((unsigned int*)lpParameter);
+	system("judge2.exe");
+}
 int main(){
 	ifstream fin;
 	int i = 1;
@@ -37,7 +41,9 @@ int main(){
 	fin >> name;
 	fin >> time_limit;
 	fin.close();
-	DWORD myThreadID;
+	DWORD myThreadID, myThreadID2;
+	int idx = 1;
+	myHandle2 = CreateThread(0, 0, judge2, 0, 0, &myThreadID2);
 	string status = "Accepted";
 	if(language == "C" || language == "C++"){
 		string q = ".\\lans\\Cpp\\MinGW64\\bin\\g++.exe ";
@@ -84,7 +90,11 @@ int main(){
 			if(status != "Accepted"){
 				break;
 			}
+			res.open("result.txt");
+			res << "Judging Test "+ idx;
+			res.close();
 			ut.close();
+			idx++;
 		}
 		inp.close();
 		ans.close();
@@ -136,7 +146,11 @@ int main(){
 			if(status != "Accepted"){
 				break;
 			}
+			res.open("result.txt");
+			res << "Judging Test "+ idx;
+			res.close();
 			ut.close();
+			idx++;
 		}
 		inp.close();
 		ans.close();
@@ -190,7 +204,11 @@ int main(){
 			if(status != "Accepted"){
 				break;
 			}
+			res.open("result.txt");
+			res << "Judging Test "+ idx;
+			res.close();
 			ut.close();
+			idx++;
 		}
 		inp.close();
 		ans.close();
@@ -241,7 +259,11 @@ int main(){
 			if(status != "Accepted"){
 				break;
 			}
+			res.open("result.txt");
+			res << "Judging Test "+ idx;
+			res.close();
 			ut.close();
+			idx++;
 		}
 		inp.close();
 		ans.close();
@@ -250,4 +272,5 @@ int main(){
 		res << status;
 		res.close();
 	}
+	CloseHandle(myHandle2);
 }
