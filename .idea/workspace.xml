@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,14 @@
       <workItem from="1597856887191" duration="20000" />
       <workItem from="1597857467580" duration="658000" />
       <workItem from="1598013744463" duration="2463000" />
-      <workItem from="1598335011619" duration="213000" />
+      <workItem from="1598335011619" duration="418000" />
+      <workItem from="1598335781527" duration="1894000" />
+      <workItem from="1598424022102" duration="603000" />
+      <workItem from="1598806685001" duration="520000" />
+      <workItem from="1598968418631" duration="305000" />
+      <workItem from="1598980445048" duration="66000" />
+      <workItem from="1599035495197" duration="86000" />
+      <workItem from="1599071381820" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -351,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598015917610</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Background bugs fixed">
+      <created>1598335330856</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1598335330856</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +384,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="View part of login mvc created" />
     <MESSAGE value="css bug fixed" />
     <MESSAGE value="security improved" />
     <MESSAGE value="Jquery Connected to the theme" />
@@ -396,7 +408,8 @@
     <MESSAGE value="some register buxs fixed" />
     <MESSAGE value="change path of folder in progress in mvc to mvc/view" />
     <MESSAGE value="change path of folder in progress in mvc/model to mvc/view" />
-    <option name="LAST_COMMIT_MESSAGE" value="change path of folder in progress in mvc/model to mvc/view" />
+    <MESSAGE value="Background bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Background bugs fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -447,10 +460,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598015919220">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598335332409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598015919220" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598335332409" />
     <state x="362" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597252072995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
