@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 640px) {	
 	body{
 		margin: 0;
@@ -8,6 +9,19 @@
 		background: linear-gradient(7deg, #00ffcc, #0d0d0d, #0d0d0d, #00ffcc);
 		background-size: 400% 400%;
 		animation: gradient 23s ease infinite;
+=======
+body{
+	padding: 0;
+	font-family: B titr;
+	background-size: cover;
+	background: linear-gradient(7deg, #00ffcc, #0d0d0d, #0d0d0d, #00ffcc);
+	background-size: 400% 400%;
+	animation: gradient 23s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+>>>>>>> be8c2053d7d905be64bd30d6ad9b69ceff9082ae
 	}
 	@keyframes gradient {
 		0% {
@@ -30,6 +44,18 @@
 	  	font-size: 29px;
 
 	}
+<<<<<<< HEAD
+=======
+}
+.alert{
+	width: 10px;
+  	background-color: #f44336;
+  	text-align: center;
+  	color: black;
+  	padding: 2px 4px ;
+  	border-radius: 15px;
+  	font-size: 29px;
+>>>>>>> be8c2053d7d905be64bd30d6ad9b69ceff9082ae
 
 	.box{
 		padding: 50px;
