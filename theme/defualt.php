@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $title?></title>
-	<link rel="stylesheet" type="text/css" href="../css/<?php echo $css_path ?>">
-    <link rel="stylesheet" type="text/css" href="../css/gen_header.css">
+    <title><?php echo $title ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/<?php echo $css_path ?>">
+    <link rel="stylesheet" type="text/css" href="../css/gen-header.css">
+    <link rel="stylesheet" type="text/css" href="../css/default.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
     <script src="../js/jquery-3.5.1.min.js"></script>
-    <script src="../js/gen_header.js"></script>
+    <script src="../js/gen-header.js"></script>
 </head>
 <body>
 <div class="body">
@@ -29,8 +32,8 @@
             </label>
         </div>
     </div>
+	<?php echo $content ?>
 </div>
-<?php echo $content ?>
 
 </body>
 </html>

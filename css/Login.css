@@ -14,7 +14,7 @@
 	body{
 		margin: 0;
 		padding: 0;
-		font-family: B titr;
+		font-family: B titr !important;
 		background-size: cover;
 		background: linear-gradient(7deg, #00ffcc, #0d0d0d, #0d0d0d, #00ffcc);
 		background-size: 400% 400%;

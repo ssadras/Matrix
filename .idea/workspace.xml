@@ -20,7 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/gen-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/user-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontsFree-Net-ir_sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Raleway-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/createonlinecoursewp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/img_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/us-dash-stackedCards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/user-dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gen_header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gn_defaults.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gn_header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gn_main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gen_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gen-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/defualt.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/defualt.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +54,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,22 +78,26 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Matrix\js" />
+      <recent name="C:\wamp64\www\Matrix\css" />
+      <recent name="C:\wamp64\www\Matrix\mvc\model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\Matrix\mvc\view" />
       <recent name="C:\wamp64\www\Matrix\mvc\model" />
       <recent name="C:\wamp64\www\Matrix\css" />
       <recent name="C:\wamp64\www\Matrix\image" />
       <recent name="C:\wamp64\www\Matrix\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\Matrix\mvc\model" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -110,7 +146,7 @@
       <workItem from="1599397523213" duration="10000" />
       <workItem from="1599449686113" duration="614000" />
       <workItem from="1602912945116" duration="30000" />
-      <workItem from="1602913050320" duration="1432000" />
+      <workItem from="1602913050320" duration="12024000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -399,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602914391680</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="general header added to al pages.">
+      <created>1602914762183</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1602914762183</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Js bug fixes" />
     <MESSAGE value="$.post method bug fixed" />
     <MESSAGE value="Php bugs fixes" />
     <MESSAGE value="redirect bug fixed" />
@@ -454,7 +496,8 @@
     <MESSAGE value="Htaccess file improved" />
     <MESSAGE value="code version back. because errors." />
     <MESSAGE value="codes get cleaner" />
-    <option name="LAST_COMMIT_MESSAGE" value="codes get cleaner" />
+    <MESSAGE value="general header added to al pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="general header added to al pages." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -465,6 +508,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596264011939" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602946927730">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602946927730" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1602913212807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -505,14 +552,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
-    <state x="531" y="66" key="RollbackChangesDialog" timestamp="1602913290462">
+    <state x="531" y="66" key="RollbackChangesDialog" timestamp="1602919616421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913290462" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602914392895">
+    <state x="531" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602919616421" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602914764705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602914392895" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602914764705" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599072891234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

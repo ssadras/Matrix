@@ -3,5 +3,5 @@ Options -Indexes
 RewriteEngine On
 RewriteBase /Matrix/
 
-RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js|php|html)$
+RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js|php|html|otf|eot|svg|ttf|woff|woff2)$
 RewriteRule .* index.php [L]

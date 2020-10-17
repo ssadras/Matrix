@@ -29,7 +29,7 @@ class UserController {
     }
 
     private function loginForm(){
-        View::render("/login.php","login.css","Login");
+        View::render("/user-dashboard.html","user-dashboard.css","Login");
     }
 
     public function register (){

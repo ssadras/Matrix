@@ -34,7 +34,7 @@ header nav ul {
 header nav ul li {
     padding: 15px 25px;
     transition: all ease-in-out .4s;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header nav ul li:first-child {
