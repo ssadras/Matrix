@@ -19,34 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/gen-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/user-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontsFree-Net-ir_sans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Raleway-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/createonlinecoursewp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/img_avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/us-dash-stackedCards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/user-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gen_header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gn_defaults.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gn_header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gn_main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gen_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gen-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/defualt.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/defualt.php" afterDir="false" />
-    </list>
+    <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +119,7 @@
       <workItem from="1599397523213" duration="10000" />
       <workItem from="1599449686113" duration="614000" />
       <workItem from="1602912945116" duration="30000" />
-      <workItem from="1602913050320" duration="12024000" />
+      <workItem from="1602913050320" duration="12328000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -442,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602914762183</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="dashboard added, (not responsive!!!)">
+      <created>1602951947754</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1602951947754</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="$.post method bug fixed" />
     <MESSAGE value="Php bugs fixes" />
     <MESSAGE value="redirect bug fixed" />
     <MESSAGE value="redirect bugs fixed in java and php" />
@@ -497,7 +476,8 @@
     <MESSAGE value="code version back. because errors." />
     <MESSAGE value="codes get cleaner" />
     <MESSAGE value="general header added to al pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="general header added to al pages." />
+    <MESSAGE value="dashboard added, (not responsive!!!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard added, (not responsive!!!)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -556,10 +536,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="531" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602919616421" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602914764705">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602951949665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602914764705" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602951949665" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599072891234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
