@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/defualt.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/defualt.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +110,7 @@
       <workItem from="1599397523213" duration="10000" />
       <workItem from="1599449686113" duration="614000" />
       <workItem from="1602912945116" duration="30000" />
+      <workItem from="1602913050320" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -378,11 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599071515679</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="code version back. because errors.">
+      <created>1602913409442</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1602913409442</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -398,7 +415,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="security improved" />
     <MESSAGE value="Jquery Connected to the theme" />
     <MESSAGE value="Js bug fixes" />
     <MESSAGE value="$.post method bug fixed" />
@@ -423,7 +439,8 @@
     <MESSAGE value="change path of folder in progress in mvc/model to mvc/view" />
     <MESSAGE value="Background bugs fixed" />
     <MESSAGE value="Htaccess file improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Htaccess file improved" />
+    <MESSAGE value="code version back. because errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="code version back. because errors." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -434,10 +451,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596264011939" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1598014596461">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1602913212807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1598014596461" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913212807" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597549523453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -474,14 +491,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
-    <state x="531" y="66" key="RollbackChangesDialog" timestamp="1599072765322">
+    <state x="531" y="66" key="RollbackChangesDialog" timestamp="1602913290462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599072765322" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599071517798">
+    <state x="531" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913290462" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602913411467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599071517798" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602913411467" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599072891234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -494,5 +511,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597254501873" />
+    <state x="420" y="152" key="git4idea.merge.GitPullDialog" timestamp="1602913241552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="420" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913241552" />
   </component>
 </project>
