@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/defualt.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/defualt.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,7 @@
       <workItem from="1599397523213" duration="10000" />
       <workItem from="1599449686113" duration="614000" />
       <workItem from="1602912945116" duration="30000" />
-      <workItem from="1602913050320" duration="1139000" />
+      <workItem from="1602913050320" duration="1432000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -393,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602914110965</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="codes get cleaner">
+      <created>1602914391680</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1602914391680</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Jquery Connected to the theme" />
     <MESSAGE value="Js bug fixes" />
     <MESSAGE value="$.post method bug fixed" />
     <MESSAGE value="Php bugs fixes" />
@@ -448,7 +453,8 @@
     <MESSAGE value="Background bugs fixed" />
     <MESSAGE value="Htaccess file improved" />
     <MESSAGE value="code version back. because errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="code version back. because errors." />
+    <MESSAGE value="codes get cleaner" />
+    <option name="LAST_COMMIT_MESSAGE" value="codes get cleaner" />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -503,10 +509,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="531" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913290462" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602914112966">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602914392895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602914112966" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602914392895" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599072891234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

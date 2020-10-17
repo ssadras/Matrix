@@ -1,0 +1,73 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 70px 0;
+}
+
+.main-content{
+    width: 60%;
+    margin: 0 20px;
+    text-align: right;
+    color: white;
+}
+.main-sidebar{
+    width: 35%;
+    margin: 0 20px;
+    text-align: center;
+}
+.circles{
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    padding: 30px 0;
+    padding-right: 70px;
+    justify-content: space-between;
+}
+.circles > div.courses{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #52eecf 40%, #e73c7e 60%, #e73c7e, #52eecf);
+    background-size: 400% 400%;
+    animation: gradient2 5s ease infinite;
+}
+
+.circles > div.questions{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #e73c7e 40%, #52eecf 60%, #52eecf, #e73c7e);
+    background-size: 400% 400%;
+    animation: gradient2 5s ease infinite;
+}
+
+.circles > div.projects{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #52eecf 40%, #e73c7e 60%, #e73c7e, #52eecf);
+    background-size: 400% 400%;
+    animation: gradient2 5s ease infinite;
+}
+
+.circles > div h4{
+    margin-top: 80px;
+}
+.circles > div h3{
+    margin-top: 40px;
+}
+
+
+@keyframes gradient2 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
