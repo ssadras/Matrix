@@ -19,7 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="" />
+    <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/gen-footer-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/user-dashboard-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/PHP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/asp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/django.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/hzzsnsmquwhu.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/php.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/ruby.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gen-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gen-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/user-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/user-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gen-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gen-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/user-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user-dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/defualt.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/defualt.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,21 +74,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\Matrix\js" />
-      <recent name="C:\wamp64\www\Matrix\css" />
-      <recent name="C:\wamp64\www\Matrix\mvc\model" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\Matrix\mvc\view" />
       <recent name="C:\wamp64\www\Matrix\mvc\model" />
       <recent name="C:\wamp64\www\Matrix\css" />
       <recent name="C:\wamp64\www\Matrix\image" />
       <recent name="C:\wamp64\www\Matrix\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Matrix\image" />
+      <recent name="C:\wamp64\www\Matrix\js" />
+      <recent name="C:\wamp64\www\Matrix\css" />
+      <recent name="C:\wamp64\www\Matrix\mvc\model" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -119,7 +138,10 @@
       <workItem from="1599397523213" duration="10000" />
       <workItem from="1599449686113" duration="614000" />
       <workItem from="1602912945116" duration="30000" />
-      <workItem from="1602913050320" duration="12328000" />
+      <workItem from="1602913050320" duration="13598000" />
+      <workItem from="1603092541024" duration="39000" />
+      <workItem from="1603092894666" duration="8000" />
+      <workItem from="1603172143039" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -422,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602951947754</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="login bug fixed.">
+      <created>1602952052444</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1602952052444</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +481,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Php bugs fixes" />
     <MESSAGE value="redirect bug fixed" />
     <MESSAGE value="redirect bugs fixed in java and php" />
     <MESSAGE value="js improved" />
@@ -477,7 +505,8 @@
     <MESSAGE value="codes get cleaner" />
     <MESSAGE value="general header added to al pages." />
     <MESSAGE value="dashboard added, (not responsive!!!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard added, (not responsive!!!)" />
+    <MESSAGE value="login bug fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="login bug fixed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="59" y="205" key="#SQL_Dialects" timestamp="1597254037880">
@@ -496,10 +525,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913212807" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597549523453">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603092566607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597549523453" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603092566607" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1597422425282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -552,6 +581,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597254501873" />
+    <state x="424" y="92" width="585" height="534" key="find.popup" timestamp="1603172665774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="92" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603172665774" />
     <state x="420" y="152" key="git4idea.merge.GitPullDialog" timestamp="1602913241552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

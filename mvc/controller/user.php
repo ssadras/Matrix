@@ -3,7 +3,7 @@ class UserController {
     public function login (){
         if (isset($_SESSION["user"])){
 	        $_SESSION["msg"]=["msg"=>"You are already login.","t_color"=>"white","bg_color"=>"yellow"];
-            header(Domain_R()."home/");
+            header(Domain_R()."user/dashboard");
         }
         if (!isset($_POST["user"]) and !isset($_POST["pass"]) and !isset($_POST["jsconf"])) {
             $this->loginForm();
@@ -23,9 +23,15 @@ class UserController {
         }
         else{
             $_SESSION["user"]=["username"=>$username,"name"=>$result["firstname"]." ".$result["lastname"]];
-            echo "../user/register";
+            echo "../user/dashboard";
         }
         return ;
+    }
+
+    public function logout (){
+    	unset($_SESSION["user"]);
+    	$this->login();
+    	return ;
     }
 
     private function loginForm(){
@@ -34,7 +40,7 @@ class UserController {
 
     public function register (){
         if (isset($_SESSION["user"])){
-        	header("Location: ../home");
+        	header("Location: ../user/dashboard");
         	return ;
         }
         if (!isset($_POST["username"]) and !isset($_POST["pass"]) and !isset($_POST["email"])) {
@@ -78,4 +84,16 @@ class UserController {
     private function registerForm(){
 		View::render("/register.php","Register.css","Register");
     }
+
+	public function dashboard (){
+		if (!isset($_SESSION["user"])){
+			$this->loginForm();
+		}
+		$this->dashboardForm();
+	}
+
+	private function dashboardForm (){
+		View::render("/user-dashboard.php","user-dashboard.css","Dashboard");
+	}
+
 }
