@@ -93,7 +93,7 @@ class UserController {
 	}
 
 	private function dashboardForm (){
-		View::render("/user-dashboard.php","user-dashboard.css","Dashboard");
+		View::render("/dashboard.php","user-dashboard.css","Dashboard");
 	}
 
 }

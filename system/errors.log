@@ -3793,3 +3793,22 @@ Stack trace:
 [20-Oct-2020 10:00:56 Asia/Tehran] PHP   3. UserController->dashboard() C:\wamp64\www\Matrix\route.php:12
 [20-Oct-2020 10:00:56 Asia/Tehran] PHP   4. UserController->dashboardForm() C:\wamp64\www\Matrix\mvc\controller\user.php:92
 [20-Oct-2020 10:00:56 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:96
+[25-Oct-2020 15:09:04 Asia/Tehran] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in C:\wamp64\www\Matrix\system\core.php on line 2
+[25-Oct-2020 15:09:04 Asia/Tehran] PHP Stack trace:
+[25-Oct-2020 15:09:04 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[25-Oct-2020 15:09:04 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[25-Oct-2020 15:09:04 Asia/Tehran] PHP   3. require_once() C:\wamp64\www\Matrix\route.php:2
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP Warning:  require_once(./mvc/view/user-dashboard.php): failed to open stream: No such file or directory in C:\wamp64\www\Matrix\system\view.php on line 6
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP Stack trace:
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   3. UserController->dashboard() C:\wamp64\www\Matrix\route.php:12
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   4. UserController->dashboardForm() C:\wamp64\www\Matrix\mvc\controller\user.php:92
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:96
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required './mvc/view/user-dashboard.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Matrix\system\view.php on line 6
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP Stack trace:
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   1. {main}() C:\wamp64\www\Matrix\index.php:0
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   2. require_once() C:\wamp64\www\Matrix\index.php:2
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   3. UserController->dashboard() C:\wamp64\www\Matrix\route.php:12
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   4. UserController->dashboardForm() C:\wamp64\www\Matrix\mvc\controller\user.php:92
+[25-Oct-2020 15:16:48 Asia/Tehran] PHP   5. View::render() C:\wamp64\www\Matrix\mvc\controller\user.php:96

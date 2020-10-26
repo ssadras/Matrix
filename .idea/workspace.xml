@@ -20,21 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dc5cdd9-cef9-4aab-8d1a-7e90d0d911b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/gen-footer-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/user-dashboard-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/PHP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/asp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/django.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hzzsnsmquwhu.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ruby.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/defaults.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/gen-footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/gen-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/user-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/gen-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/user-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gen-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gen-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/user-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/user-dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gen-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gen-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/user-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user-dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/defualt.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/defualt.php" afterDir="false" />
     </list>
@@ -74,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -86,9 +81,9 @@
       <recent name="C:\wamp64\www\Matrix\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\Matrix\image" />
-      <recent name="C:\wamp64\www\Matrix\js" />
       <recent name="C:\wamp64\www\Matrix\css" />
+      <recent name="C:\wamp64\www\Matrix\js" />
+      <recent name="C:\wamp64\www\Matrix\image" />
       <recent name="C:\wamp64\www\Matrix\mvc\model" />
     </key>
   </component>
@@ -142,6 +137,8 @@
       <workItem from="1603092541024" duration="39000" />
       <workItem from="1603092894666" duration="8000" />
       <workItem from="1603172143039" duration="3220000" />
+      <workItem from="1603622352962" duration="1783000" />
+      <workItem from="1603626537029" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="Database structure Changed">
       <created>1596264413106</created>
@@ -557,10 +554,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1597428786335" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1597415424114">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1603625701294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597415424114" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603625701294" />
     <state x="531" y="66" key="RollbackChangesDialog" timestamp="1602919616421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
